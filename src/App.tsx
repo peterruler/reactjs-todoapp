@@ -1,0 +1,391 @@
+import { useState } from 'react'
+import './App.css'
+import bugIcon from './assets/bug-white-32.png'
+import folderIcon from './assets/folder-icon.svg'
+import clipboardIcon from './assets/clipboard-icon.svg'
+import listIcon from './assets/list-icon.svg'
+import plusCircleIcon from './assets/plus-circle-icon.svg'
+
+interface Project {
+  id: string
+  name: string
+}
+
+interface Issue {
+  id: string
+  title: string
+  priority: string
+  dueDate: string
+  done: boolean
+  projectId: string
+}
+
+function App() {
+  const [projects, setProjects] = useState<Project[]>([
+    { id: '22c054b7-4078-4d02-9034-e4b186bcb81f', name: 'test' },
+    { id: '3fa26724-cfa2-49a7-aecc-c40f6f75aa09', name: 'foo bert' },
+    { id: '7861ce1b-cea8-459b-bb5a-653652e29e77', name: 'test2' },
+    { id: 'c6ddb25c-6b3e-4a46-bd85-028687a7b962', name: 'foo' }
+  ])
+
+  const [issues, setIssues] = useState<Issue[]>([
+    {
+      id: 'fa48263b-a110-4f25-a774-2fcf03f35d78',
+      title: 'bar',
+      priority: '2',
+      dueDate: '2025-01-10',
+      done: false,
+      projectId: ''
+    }
+  ])
+
+  const [selectedProjects, setSelectedProjects] = useState<string[]>([])
+  const [newProjectName, setNewProjectName] = useState('')
+  const [newIssue, setNewIssue] = useState({
+    title: '',
+    priority: '',
+    dueDate: ''
+  })
+
+  const handleAddProject = () => {
+    if (newProjectName.trim()) {
+      const newProject: Project = {
+        id: crypto.randomUUID(),
+        name: newProjectName.trim()
+      }
+      setProjects([...projects, newProject])
+      setNewProjectName('')
+    }
+  }
+
+  const handleAddIssue = () => {
+    if (newIssue.title.trim()) {
+      const issue: Issue = {
+        id: crypto.randomUUID(),
+        title: newIssue.title.trim(),
+        priority: newIssue.priority,
+        dueDate: newIssue.dueDate,
+        done: false,
+        projectId: selectedProjects[0] || ''
+      }
+      setIssues([...issues, issue])
+      setNewIssue({ title: '', priority: '', dueDate: '' })
+    }
+  }
+
+  const handleDeleteIssue = (id: string) => {
+    setIssues(issues.filter(issue => issue.id !== id))
+  }
+
+  const handleToggleIssue = (id: string) => {
+    setIssues(issues.map(issue => 
+      issue.id === id ? { ...issue, done: !issue.done } : issue
+    ))
+  }
+
+  const formatDate = (dateString: string) => {
+    if (!dateString) return ''
+    const date = new Date(dateString)
+    return date.toLocaleDateString('de-DE')
+  }
+
+  return (
+    <div className="bg-dark text-light" style={{ minHeight: '100vh' }}>
+      <h1 style={{ display: 'none' }}>Peter Strössler</h1>
+      
+      {/* Header */}
+      <header style={{ paddingBottom: '20px' }}>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
+          <div className="container-fluid container">
+            <a className="navbar-brand text-white d-flex align-items-center" href="#">
+              <img src={bugIcon} alt="Bug Tracker" className="me-2" style={{ width: '32px', height: '32px' }} />
+              <span className="title fw-bold">Issue Tracker</span>
+            </a>
+            <button 
+              className="navbar-toggler border-white" 
+              type="button" 
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown" 
+              aria-controls="navbarNavDropdown" 
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="navbar-collapse collapse" id="navbarNavDropdown">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <a className="nav-link active text-white fw-bold" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-light" href="#about">
+                    Über
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-light" href="mailto:peter.stroessler@bluewin.ch?subject=todoapp">
+                    Kontakt
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      {/* Main Content */}
+      <div className="min-vh-100 bg-dark text-light" style={{ 
+        minWidth: '768px', 
+        maxWidth: '1200px', 
+        margin: '0 auto', 
+        paddingLeft: '15px', 
+        paddingRight: '15px',
+        width: '100%'
+      }}>
+        <div className="row justify-content-center">
+          <div className="col-12">
+            <div className="row align-items-center mb-4">
+              <div className="col-12">
+                <h2 className="text-white mb-3 fw-bold border-bottom border-white pb-2 d-flex align-items-center" style={{ fontSize: '24px' }}>
+                  <img src={folderIcon} alt="Projekte" className="me-2" style={{ width: '24px', height: '24px', filter: 'invert(1)' }} />
+                  Projekte
+                </h2>
+              </div>
+              <div className="col-md-4 mb-3">
+                <label htmlFor="projectSelect" className="form-label text-light fw-semibold">
+                  Projekte auswählen:
+                </label>
+                <select 
+                  multiple 
+                  id="projectSelect" 
+                  className="form-select bg-dark text-light border-secondary" 
+                  aria-label="select"
+                  value={selectedProjects}
+                  onChange={(e) => setSelectedProjects(Array.from(e.target.selectedOptions, option => option.value))}
+                  style={{ height: '120px' }}
+                >
+                  {projects.map(project => (
+                    <option key={project.id} value={project.id} className="bg-dark text-light">
+                      {project.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="col-md-8 mb-3">
+                <label htmlFor="new-project" className="form-label text-light fw-semibold">
+                  Neues Projekt hinzufügen:
+                </label>
+                <div className="input-group">
+                  <input 
+                    type="text" 
+                    id="new-project"
+                    className="form-control bg-dark text-light border-secondary" 
+                    aria-label="Project Name"
+                    placeholder="Projektname eingeben..."
+                    value={newProjectName}
+                    onChange={(e) => setNewProjectName(e.target.value)}
+                    onKeyPress={(e) => e.key === 'Enter' && handleAddProject()}
+                  />
+                  <button 
+                    className="btn btn-outline-light border-2" 
+                    type="button"
+                    onClick={handleAddProject}
+                    disabled={!newProjectName.trim()}
+                  >
+                    <i className="fas fa-plus me-1"></i>Hinzufügen
+                  </button>
+                </div>
+              </div>
+            </div>
+
+        <hr className="border-white border-2 my-4" />
+
+        <div className="row mb-4">
+          <div className="col-12">
+            <h2 className="text-white mb-3 fw-bold border-bottom border-white pb-2 d-flex align-items-center" style={{ fontSize: '24px' }}>
+              <img src={clipboardIcon} alt="Issues" className="me-2" style={{ width: '24px', height: '24px', filter: 'invert(1)' }} />
+              Issues
+            </h2>
+          </div>
+        </div>
+
+        {/* New Issue Form */}
+        <div className="card bg-dark border-secondary mb-4">
+          <div className="card-header bg-secondary text-light">
+            <h5 className="card-title mb-0 d-flex align-items-center">
+              <img src={plusCircleIcon} alt="Plus" className="me-2" style={{ width: '20px', height: '20px', filter: 'invert(1)' }} />
+              Neues Issue erstellen
+            </h5>
+          </div>
+          <div className="card-body">
+            <div className="row g-3">
+              <div className="col-md-3">
+                <label htmlFor="priority" className="form-label text-light fw-semibold">
+                  Priorität:
+                </label>
+                <select 
+                  name="priority" 
+                  id="priority" 
+                  className="form-select bg-dark text-light border-secondary"
+                  value={newIssue.priority}
+                  onChange={(e) => setNewIssue({...newIssue, priority: e.target.value})}
+                >
+                  <option value="">Priorität wählen...</option>
+                  <option value="1" className="text-danger">🔴 Hoch (1)</option>
+                  <option value="2" className="text-warning">🟡 Mittel (2)</option>
+                  <option value="3" className="text-success">🟢 Niedrig (3)</option>
+                </select>
+              </div>
+              <div className="col-md-3">
+                <label htmlFor="datepicker" className="form-label text-light fw-semibold">
+                  Fälligkeitsdatum:
+                </label>
+                <input 
+                  name="due_date" 
+                  type="date" 
+                  className="form-control bg-dark text-light border-secondary"
+                  id="datepicker"
+                  value={newIssue.dueDate}
+                  onChange={(e) => setNewIssue({...newIssue, dueDate: e.target.value})}
+                />
+              </div>
+              <div className="col-md-6">
+                <label htmlFor="new-issue" className="form-label text-light fw-semibold">
+                  Issue Titel:
+                </label>
+                <div className="input-group">
+                  <input 
+                    type="text" 
+                    id="new-issue"
+                    className="form-control bg-dark text-light border-secondary" 
+                    aria-label="Issue Name"
+                    placeholder="Issue beschreiben..."
+                    value={newIssue.title}
+                    onChange={(e) => setNewIssue({...newIssue, title: e.target.value})}
+                    onKeyPress={(e) => e.key === 'Enter' && handleAddIssue()}
+                  />
+                  <button 
+                    className="btn btn-outline-light border-2" 
+                    type="button"
+                    onClick={handleAddIssue}
+                    disabled={!newIssue.title.trim()}
+                  >
+                    <i className="fas fa-plus me-1"></i>Erstellen
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Issues Table */}
+        <div className="card bg-dark border-secondary">
+          <div className="card-header bg-secondary text-light">
+            <h5 className="card-title mb-0 d-flex align-items-center">
+              <img src={listIcon} alt="Liste" className="me-2" style={{ width: '20px', height: '20px', filter: 'invert(1)' }} />
+              Issue Übersicht ({issues.length} Issues)
+            </h5>
+          </div>
+          <div className="card-body p-0">
+            <div className="table-responsive">
+              <table className="table table-dark table-hover mb-0">
+                <thead className="table-secondary">
+                  <tr>
+                    <th scope="col" className="text-center">
+                      <i className="fas fa-check-circle text-success"></i>
+                    </th>
+                    <th scope="col">
+                      <i className="fas fa-file-alt me-1"></i>Issue Name
+                    </th>
+                    <th scope="col" className="text-center">
+                      <i className="fas fa-exclamation-triangle me-1"></i>Priorität
+                    </th>
+                    <th scope="col" className="text-center">
+                      <i className="fas fa-calendar me-1"></i>Fällig am
+                    </th>
+                    <th scope="col" className="text-center">Aktionen</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {issues.length === 0 ? (
+                    <tr>
+                      <td colSpan={5} className="text-center text-muted py-4">
+                        <i className="fas fa-inbox fa-2x mb-2 d-block"></i>
+                        Noch keine Issues vorhanden. Erstelle dein erstes Issue!
+                      </td>
+                    </tr>
+                  ) : (
+                    issues.map(issue => (
+                      <tr key={issue.id} className={issue.done ? 'table-success bg-opacity-25' : ''}>
+                        <td className="text-center">
+                          <div className="form-check d-flex justify-content-center">
+                            <input 
+                              className="form-check-input" 
+                              type="checkbox" 
+                              checked={issue.done}
+                              onChange={() => handleToggleIssue(issue.id)}
+                            />
+                          </div>
+                        </td>
+                        <td className={issue.done ? 'text-decoration-line-through text-white' : 'text-light'}>
+                          <strong>{issue.title}</strong>
+                        </td>
+                        <td className="text-center">
+                          {issue.priority === '1' && <span className="badge bg-danger">🔴 Hoch</span>}
+                          {issue.priority === '2' && <span className="badge bg-warning">🟡 Mittel</span>}
+                          {issue.priority === '3' && <span className="badge bg-success">🟢 Niedrig</span>}
+                          {!issue.priority && <span className="badge bg-secondary">-</span>}
+                        </td>
+                        <td className="text-center text-light">
+                          {issue.dueDate ? (
+                            <span className="badge border border-white text-white">
+                              <i className="fas fa-calendar-day me-1"></i>
+                              {formatDate(issue.dueDate)}
+                            </span>
+                          ) : (
+                            <span className="badge bg-secondary">Kein Datum</span>
+                          )}
+                        </td>
+                        <td className="text-center">
+                          <button 
+                            type="button" 
+                            className="btn btn-outline-danger btn-sm"
+                            onClick={() => handleDeleteIssue(issue.id)}
+                            title="Issue löschen"
+                          >
+                            <i className="fas fa-trash"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <footer id="about" className="mt-5 pt-4 border-top border-white">
+          <div className="text-center">
+            <p className="text-white mb-2">
+              <i className="fas fa-code me-1"></i>
+              Built with React & Bootstrap
+            </p>
+            <p className="text-light">
+              <a href="https://peterruler.github.io/" className="text-white text-decoration-none fw-bold">
+                Made with <i className="fas fa-heart text-danger"></i> by Peter © 2025
+              </a>
+            </p>
+          </div>
+        </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default App
