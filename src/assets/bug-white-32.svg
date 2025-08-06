@@ -1,0 +1,4123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <image
+       width="32"
+       height="32"
+       preserveAspectRatio="none"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADm0lEQVRYhb1WTUzTYBhuG6qJYTQZ&#10;QTGwCXIBuXnwQvDgzXhS4onoDW8Ys2iyhMRAAgnhICQeWJCLSBkT4jT8jDVcbEpgjNh5oCOyJcCG&#10;iuuW/fKzST/zzX3LMgvtsPokXbr3e9/neb6/fh+OnQFDQ0MP6+vrH1EUZYTVsVhsx+/3vzKZTK/P&#10;wqcaAIAKjuO2wAnItVX8K/ELXq83eZI4Qi7nguYGHA7HqpI4wtzc3Jqm4r29vVfS6bRafQBzu7u7&#10;69RwE+jFYrEMTk1NsXJzSJKkiSRJ1YZhLkmSz4rjkHt6evrj8PDwEIqVwZ/Ozs6Gjo6OJwRBYIIg&#10;BAAARhzHYyhJp9PFPR5PRLUDDMMoiooWiVOCIOy0tbVVSJJ0k+f5lyMjI/5sY0tLi04QhPwCW19f&#10;j8GCUgRPQ048WsCfam5uLi8eniqfz5fS2gTkyHFlsbm5ub+3t3cJteNFyVV+v3+roaEhu40CgUAm&#10;HA7H/8ZAZWVlhcFgyC4gn893UF1dXafT6X6c5hiaUNzvpSI3ulXFekRxAMfxkNvtNin17OjoCNvd&#10;3c3AB74rYXl5+SnkVjQAEYlEzisRer3ecG1t7Tn4bGxsiEr50Wj0nFxc1kA6nS5T7FLB+gEAKB5q&#10;mUxGllPWwP+ErAG9Xp/U2gNFUSm5eHZYzGZzXaGZeDxu1NpAMpk0ms3mqwUhqb+/fwtbW1vbO8u2&#10;4nk+jJh4nhfPwuF2u38QjY2NF7XurVo0NTVVldE03VlTU/OAIIj8Si4vL69ubW01aCnGsmwwlUp9&#10;Q/8lSQKBQICWTXY4HPe0ngK73d4mpyW7C1ZXVxOadLsAPM/LnimyBkRRZA8PD4FW4gcHB/Cu+LGk&#10;opWVlW9aTQHHcd9P0jnxS5hIJF6U5PgURKPRwZINkCR5VysDAIAvJRXY7fb3Wu6CeDwu0TR9X5W4&#10;zWYbRIX7+/vAarW+FUXxZ6kGIpHIz6WlpZ1CEzabTXYr5kHT9GN0/z8+PgZjY2PPYZvT6TQsLi6u&#10;wxiCy+XKH1gulyuB4jCHYRghFApdhse00+n0qDLR19d3J5HI84CJiYk3xTkDAwOtk5OTMxzHfZ2d&#10;nfWg+Pz8/CeWZXfHx8ffdXV13SisgSYWFhY+I15RFKWenp7bfxgYHR39gJJmZmZYVfOlEtAEwzA8&#10;4rdYLLOoNH9LCQaDzxiGuRYKhYLt7e23tDSA4zjUvW61Whf1er1xe3v7950Tw7BfLlJ3uSljhe0A&#10;AAAASUVORK5CYII=&#10;"
+       id="image1" />
+    <g
+       id="g2">
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,31 h 1 v 1 h -1"
+         id="path1025" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,31 h 1 v 1 h -1"
+         id="path1024" />
+      <path
+         style="fill:#797979;fill-opacity:0.14902"
+         d="M 29.25,31.25 30,31 v 1 h -1"
+         id="path1023" />
+      <path
+         style="fill:#b8b8b8;fill-opacity:0.858824"
+         d="m 28,31 0.75,-0.25 0.5,0.5 L 29,32 h -1"
+         id="path1022" />
+      <path
+         style="fill:#a6a6a6;fill-opacity:0.741176"
+         d="m 26.75,31.25 0.5,-0.5 L 28,31 v 1 h -1"
+         id="path1021" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.00392157"
+         d="m 25.75,31.25 0.5,-0.5 0.5,0.5 L 27,32 h -1"
+         id="path1020" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24.75,31.25 0.5,-0.5 0.5,0.5 L 26,32 h -1"
+         id="path1019" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 24,31 24.75,31.25 25,32 h -1"
+         id="path1018" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,31 h 1 v 1 h -1"
+         id="path1017" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,31 h 1 v 1 h -1"
+         id="path1016" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 21,31 h 1 v 1 h -1"
+         id="path1015" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 20,31 h 1 v 1 h -1"
+         id="path1014" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 19,31 h 1 v 1 h -1"
+         id="path1013" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 18,31 h 1 v 1 h -1"
+         id="path1012" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 17,31 h 1 v 1 h -1"
+         id="path1011" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,31 h 1 v 1 h -1"
+         id="path1010" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,31 h 1 v 1 h -1"
+         id="path1009" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 14,31 h 1 v 1 h -1"
+         id="path1008" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 13,31 h 1 v 1 h -1"
+         id="path1007" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 12,31 h 1 v 1 h -1"
+         id="path1006" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 11,31 h 1 v 1 h -1"
+         id="path1005" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 10,31 h 1 v 1 h -1"
+         id="path1004" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 9,31 h 1 v 1 H 9"
+         id="path1003" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 8,31 h 1 v 1 H 8"
+         id="path1002" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 7,31 h 1 v 1 H 7"
+         id="path1001" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 6,31 h 1 v 1 H 6"
+         id="path1000" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.00392157"
+         d="M 5.25,31.25 6,31 v 1 H 5"
+         id="path999" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:0.74902"
+         d="m 4,31 0.75,-0.25 0.5,0.5 L 5,32 H 4"
+         id="path998" />
+      <path
+         style="fill:#b9b9b9;fill-opacity:0.858824"
+         d="M 2.75,31.25 3.25,30.75 4,31 v 1 H 3"
+         id="path997" />
+      <path
+         style="fill:#808080;fill-opacity:0.14902"
+         d="M 2,31 2.75,31.25 3,32 H 2"
+         id="path996" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,31 h 1 v 1 H 1"
+         id="path995" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,31 h 1 v 1 H 0"
+         id="path994" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,30 h 1 v 1 h -1"
+         id="path993" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,30 h 1 v 1 h -1"
+         id="path992" />
+      <path
+         style="fill:#989898;fill-opacity:0.705882"
+         d="m 29,30 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path991" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 28,30 h 1 L 28.75,30.75 28,31"
+         id="path990" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 26.75,30.25 0.5,-0.5 L 28,30 v 1 l -0.75,-0.25"
+         id="path989" />
+      <path
+         style="fill:#bababa;fill-opacity:0.811765"
+         d="m 25.75,30.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path988" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.00392157"
+         d="m 24.75,30.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path987" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23.75,30.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 24,31"
+         id="path986" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 23,30 23.75,30.25 24,31 h -1"
+         id="path985" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,30 h 1 v 1 h -1"
+         id="path984" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 21.25,30.25 22,30 v 1 h -1"
+         id="path983" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 20,30 0.75,-0.25 0.5,0.5 L 21,31 h -1"
+         id="path982" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 19,30 h 1 v 1 h -1"
+         id="path981" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 18,30 h 1 v 1 h -1"
+         id="path980" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16.75,30.25 0.5,-0.5 L 18,30 v 1 h -1"
+         id="path979" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 16,30 16.75,30.25 17,31 h -1"
+         id="path978" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 15.25,30.25 16,30 v 1 h -1"
+         id="path977" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 14,30 0.75,-0.25 0.5,0.5 L 15,31 h -1"
+         id="path976" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 13,30 h 1 v 1 h -1"
+         id="path975" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 12,30 h 1 v 1 h -1"
+         id="path974" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 10.75,30.25 0.5,-0.5 L 12,30 v 1 h -1"
+         id="path973" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 10,30 10.75,30.25 11,31 h -1"
+         id="path972" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 9,30 h 1 v 1 H 9"
+         id="path971" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 8,30 h 1 v 1 H 8"
+         id="path970" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7.25,30.25 8,30 v 1 H 7"
+         id="path969" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 6.25,30.25 0.5,-0.5 0.5,0.5 L 7,31 H 6"
+         id="path968" />
+      <path
+         style="fill:#b3b3b3;fill-opacity:0.760784"
+         d="m 5.25,30.25 0.5,-0.5 0.5,0.5 L 6,31 5.25,31.25 4.75,30.75"
+         id="path967" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 4,30 0.75,-0.25 0.5,0.5 -0.5,0.5 L 4,31"
+         id="path966" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 3,30 h 1 v 1 L 3.25,30.75"
+         id="path965" />
+      <path
+         style="fill:#9c9c9c;fill-opacity:0.694118"
+         d="m 2,30 h 1 l 0.25,0.75 -0.5,0.5 L 2,31"
+         id="path964" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,30 h 1 v 1 H 1"
+         id="path963" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,30 h 1 v 1 H 0"
+         id="path962" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,29 h 1 v 1 h -1"
+         id="path961" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29.75,29.25 0.5,-0.5 L 31,29 v 1 h -1"
+         id="path960" />
+      <path
+         style="fill:#818181;fill-opacity:0.286275"
+         d="m 28.75,29.25 0.5,-0.5 0.5,0.5 L 30,30 h -1"
+         id="path959" />
+      <path
+         style="fill:#ececec;fill-opacity:0.996078"
+         d="m 27.75,29.25 0.5,-0.5 0.5,0.5 L 29,30 h -1"
+         id="path958" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 27,29 27.75,29.25 28,30 27.25,29.75"
+         id="path957" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25.75,29.25 0.5,-0.5 0.75,0.25 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path956" />
+      <path
+         style="fill:#b8b8b8;fill-opacity:0.819608"
+         d="m 24.75,29.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path955" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.00392157"
+         d="m 23.75,29.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path954" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,29 0.75,0.25 0.5,0.5 -0.5,0.5 L 23,30"
+         id="path953" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,29 h 1 v 1 h -1"
+         id="path952" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 21,29 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path951" />
+      <path
+         style="fill:#7b7b7b;fill-opacity:0.211765"
+         d="m 20,29 h 1 L 20.75,29.75 20,30"
+         id="path950" />
+      <path
+         style="fill:#a4a4a4;fill-opacity:0.682353"
+         d="m 19,29 h 1 v 1 h -1"
+         id="path949" />
+      <path
+         style="fill:#c2c2c2;fill-opacity:0.898039"
+         d="m 17.75,29.25 0.5,-0.5 L 19,29 v 1 h -1"
+         id="path948" />
+      <path
+         style="fill:#b6b6b6;fill-opacity:0.807843"
+         d="M 17,29 17.75,29.25 18,30 17.25,29.75"
+         id="path947" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,29 h 1 l 0.25,0.75 -0.5,0.5 L 16,30"
+         id="path946" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,29 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path945" />
+      <path
+         style="fill:#b4b4b4;fill-opacity:0.815686"
+         d="M 14.25,29.25 15,29 14.75,29.75 14,30"
+         id="path944" />
+      <path
+         style="fill:#c4c4c4;fill-opacity:0.901961"
+         d="m 13,29 0.75,-0.25 0.5,0.5 L 14,30 h -1"
+         id="path943" />
+      <path
+         style="fill:#a8a8a8;fill-opacity:0.701961"
+         d="m 12,29 h 1 v 1 h -1"
+         id="path942" />
+      <path
+         style="fill:#8a8a8a;fill-opacity:0.239216"
+         d="m 11,29 h 1 v 1 l -0.75,-0.25"
+         id="path941" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 10,29 h 1 l 0.25,0.75 -0.5,0.5 L 10,30"
+         id="path940" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8.75,29.25 9.25,28.75 10,29 v 1 H 9"
+         id="path939" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 8.25,29.25 h 0.5 L 9,30 H 8"
+         id="path938" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 7.25,29.25 0.5,-0.5 0.5,0.5 L 8,30 7.25,30.25 6.75,29.75"
+         id="path937" />
+      <path
+         style="fill:#a6a6a6;fill-opacity:0.639216"
+         d="m 6.25,29.25 0.5,-0.5 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path936" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 5,29 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path935" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 4.25,29.25 5,29 4.75,29.75 4,30"
+         id="path934" />
+      <path
+         style="fill:#f3f3f3;fill-opacity:1"
+         d="m 3.25,29.25 0.5,-0.5 0.5,0.5 L 4,30 H 3"
+         id="path933" />
+      <path
+         style="fill:#858585;fill-opacity:0.294118"
+         d="m 2.25,29.25 0.5,-0.5 0.5,0.5 L 3,30 H 2"
+         id="path932" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,29 0.75,-0.25 0.5,0.5 L 2,30 H 1"
+         id="path931" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,29 h 1 v 1 H 0"
+         id="path930" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,28 h 1 v 1 h -1"
+         id="path929" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,28 h 1 v 1 l -0.75,-0.25"
+         id="path928" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28.75,28.25 0.5,-0.5 0.75,0.25 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path927" />
+      <path
+         style="fill:#a9a9a9;fill-opacity:0.32549"
+         d="m 27.75,28.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path926" />
+      <path
+         style="fill:#f2f2f2;fill-opacity:0.996078"
+         d="m 26.75,28.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 27,29"
+         id="path925" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 26,28 26.75,28.25 27,29 26.25,28.75"
+         id="path924" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24.75,28.25 0.5,-0.5 0.75,0.25 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path923" />
+      <path
+         style="fill:#b9b9b9;fill-opacity:0.815686"
+         d="m 23.75,28.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path922" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.00392157"
+         d="m 22.75,28.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 23,29"
+         id="path921" />
+      <path
+         style="fill:#ebebeb;fill-opacity:0.0980392"
+         d="m 21.75,28.25 0.5,-0.5 0.5,0.5 L 23,29 h -1"
+         id="path920" />
+      <path
+         style="fill:#bababa;fill-opacity:0.839216"
+         d="m 21.25,28.25 h 0.5 L 22,29 h -1"
+         id="path919" />
+      <path
+         style="fill:#fdfdfd;fill-opacity:1"
+         d="m 20,28 0.75,-0.25 0.5,0.5 L 21,29 h -1"
+         id="path918" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,28 h 1 v 1 h -1"
+         id="path917" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 17.75,28.25 0.5,-0.5 L 19,28 v 1 l -0.75,-0.25"
+         id="path916" />
+      <path
+         style="fill:#c9c9c9;fill-opacity:0.952941"
+         d="m 17,28 0.75,0.25 0.5,0.5 -0.5,0.5 L 17,29"
+         id="path915" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,28 h 1 v 1 h -1"
+         id="path914" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,28 h 1 v 1 h -1"
+         id="path913" />
+      <path
+         style="fill:#c9c9c9;fill-opacity:0.956863"
+         d="M 14.25,28.25 15,28 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path912" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,28 0.75,-0.25 0.5,0.5 -0.5,0.5 L 13,29"
+         id="path911" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,28 h 1 v 1 h -1"
+         id="path910" />
+      <path
+         style="fill:#fdfdfd;fill-opacity:1"
+         d="m 10.75,28.25 0.5,-0.5 L 12,28 v 1 h -1"
+         id="path909" />
+      <path
+         style="fill:#bcbcbc;fill-opacity:0.835294"
+         d="m 9.75,28.25 0.5,-0.5 0.5,0.5 L 11,29 h -1"
+         id="path908" />
+      <path
+         style="fill:#b9b9b9;fill-opacity:0.113725"
+         d="m 8.75,28.25 0.5,-0.5 0.5,0.5 L 10,29 9.25,28.75"
+         id="path907" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 8.25,28.25 h 0.5 l 0.5,0.5 -0.5,0.5 h -0.5 l -0.5,-0.5"
+         id="path906" />
+      <path
+         style="fill:#a2a2a2;fill-opacity:0.494118"
+         d="m 7.25,28.25 0.5,-0.5 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path905" />
+      <path
+         style="fill:#fdfdfd;fill-opacity:1"
+         d="m 6,28 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path904" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 5.25,28.25 6,28 5.75,28.75 5,29"
+         id="path903" />
+      <path
+         style="fill:#fafafa;fill-opacity:1"
+         d="m 4.25,28.25 0.5,-0.5 0.5,0.5 L 5,29 4.25,29.25 3.75,28.75"
+         id="path902" />
+      <path
+         style="fill:#a5a5a5;fill-opacity:0.431373"
+         d="m 3.25,28.25 0.5,-0.5 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path901" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,28 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path900" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 1,28 H 2 L 1.75,28.75 1,29"
+         id="path899" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,28 h 1 v 1 H 0"
+         id="path898" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,27 h 1 v 1 h -1"
+         id="path897" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,27 h 1 v 1 h -1"
+         id="path896" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,27 h 1 v 1 l -0.75,-0.25"
+         id="path895" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27.75,27.25 0.5,-0.5 0.75,0.25 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path894" />
+      <path
+         style="fill:#a9a9a9;fill-opacity:0.32549"
+         d="m 26.75,27.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path893" />
+      <path
+         style="fill:#f2f2f2;fill-opacity:0.996078"
+         d="m 25.75,27.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 26,28"
+         id="path892" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 25,27 25.75,27.25 26,28 25.25,27.75"
+         id="path891" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23.75,27.25 0.5,-0.5 0.75,0.25 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path890" />
+      <path
+         style="fill:#c5c5c5;fill-opacity:0.886275"
+         d="m 23.25,27.25 h 0.5 l 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path889" />
+      <path
+         style="fill:#eeeeee;fill-opacity:0.988235"
+         d="m 22,27 0.75,-0.25 0.5,0.5 v 0.5 l -0.5,0.5 -0.5,-0.5"
+         id="path888" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,27 h 1 l 0.25,0.75 -0.5,0.5 h -0.5 l -0.5,-0.5"
+         id="path887" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,27 h 1 L 20.75,27.75 20,28"
+         id="path886" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,27 h 1 v 1 h -1"
+         id="path885" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,27 h 1 v 1 l -0.75,-0.25"
+         id="path884" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,27 h 1 l 0.25,0.75 -0.5,0.5 L 17,28"
+         id="path883" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,27 h 1 v 1 h -1"
+         id="path882" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,27 h 1 v 1 h -1"
+         id="path881" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,27 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path880" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,27 h 1 L 13.75,27.75 13,28"
+         id="path879" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,27 h 1 v 1 h -1"
+         id="path878" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,27 h 1 v 1 l -0.75,-0.25"
+         id="path877" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,27 h 1 l 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path876" />
+      <path
+         style="fill:#ececec;fill-opacity:0.988235"
+         d="m 8.75,27.25 0.5,-0.5 0.75,0.25 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path875" />
+      <path
+         style="fill:#a7a7a7;fill-opacity:0.666667"
+         d="m 8.25,27.25 h 0.5 l 0.5,0.5 -0.5,0.5 h -0.5 l -0.5,-0.5"
+         id="path874" />
+      <path
+         style="fill:#f6f6f6;fill-opacity:1"
+         d="m 7,27 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path873" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 6.25,27.25 7,27 6.75,27.75 6,28"
+         id="path872" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 5.25,27.25 0.5,-0.5 0.5,0.5 L 6,28 5.25,28.25 4.75,27.75"
+         id="path871" />
+      <path
+         style="fill:#a9a9a9;fill-opacity:0.560784"
+         d="m 4.25,27.25 0.5,-0.5 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path870" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,27 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path869" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 2,27 H 3 L 2.75,27.75 2,28"
+         id="path868" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,27 h 1 v 1 H 1"
+         id="path867" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,27 h 1 v 1 H 0"
+         id="path866" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,26 h 1 v 1 h -1"
+         id="path865" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,26 h 1 v 1 h -1"
+         id="path864" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,26 h 1 v 1 h -1"
+         id="path863" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,26 h 1 v 1 l -0.75,-0.25"
+         id="path862" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26.75,26.25 0.5,-0.5 0.75,0.25 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path861" />
+      <path
+         style="fill:#a5a5a5;fill-opacity:0.333333"
+         d="m 25.75,26.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path860" />
+      <path
+         style="fill:#f2f2f2;fill-opacity:0.996078"
+         d="m 24.75,26.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 25,27"
+         id="path859" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 24,26 24.75,26.25 25,27 24.25,26.75"
+         id="path858" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,26 h 1 l 0.25,0.75 -0.5,0.5 h -0.5 l -0.5,-0.5"
+         id="path857" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,26 h 1 L 22.75,26.75 22,27"
+         id="path856" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,26 h 1 v 1 h -1"
+         id="path855" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,26 h 1 v 1 h -1"
+         id="path854" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,26 h 1 v 1 h -1"
+         id="path853" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,26 h 1 v 1 h -1"
+         id="path852" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,26 h 1 v 1 h -1"
+         id="path851" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,26 h 1 v 1 h -1"
+         id="path850" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,26 h 1 v 1 h -1"
+         id="path849" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,26 h 1 v 1 h -1"
+         id="path848" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,26 h 1 v 1 h -1"
+         id="path847" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,26 h 1 v 1 h -1"
+         id="path846" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,26 h 1 v 1 h -1"
+         id="path845" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,26 h 1 v 1 h -1"
+         id="path844" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,26 h 1 v 1 L 9.25,26.75"
+         id="path843" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,26 h 1 l 0.25,0.75 -0.5,0.5 h -0.5 l -0.5,-0.5"
+         id="path842" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 7.25,26.25 8,26 7.75,26.75 7,27"
+         id="path841" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6.25,26.25 0.5,-0.5 0.5,0.5 L 7,27 6.25,27.25 5.75,26.75"
+         id="path840" />
+      <path
+         style="fill:#afafaf;fill-opacity:0.690196"
+         d="m 5.25,26.25 0.5,-0.5 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path839" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 4,26 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path838" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3,26 H 4 L 3.75,26.75 3,27"
+         id="path837" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,26 h 1 v 1 H 2"
+         id="path836" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,26 h 1 v 1 H 1"
+         id="path835" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,26 h 1 v 1 H 0"
+         id="path834" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,25 h 1 v 1 h -1"
+         id="path833" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,25 h 1 v 1 h -1"
+         id="path832" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,25 h 1 v 1 h -1"
+         id="path831" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,25 h 1 v 1 h -1"
+         id="path830" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,25 h 1 v 1 l -0.75,-0.25"
+         id="path829" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,25 h 1 l 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path828" />
+      <path
+         style="fill:#b3b3b3;fill-opacity:0.317647"
+         d="m 25,25 h 1 l 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path827" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,25 h 1 l 0.25,0.75 -0.5,0.5 L 24,26"
+         id="path826" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,25 h 1 v 1 h -1"
+         id="path825" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,25 h 1 v 1 h -1"
+         id="path824" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,25 h 1 v 1 h -1"
+         id="path823" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,25 h 1 v 1 h -1"
+         id="path822" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,25 h 1 v 1 h -1"
+         id="path821" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,25 h 1 v 1 h -1"
+         id="path820" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,25 h 1 v 1 h -1"
+         id="path819" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,25 h 1 v 1 h -1"
+         id="path818" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,25 h 1 v 1 h -1"
+         id="path817" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,25 h 1 v 1 h -1"
+         id="path816" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,25 h 1 v 1 h -1"
+         id="path815" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,25 h 1 v 1 h -1"
+         id="path814" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,25 h 1 v 1 h -1"
+         id="path813" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,25 h 1 v 1 h -1"
+         id="path812" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,25 h 1 v 1 H 9"
+         id="path811" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,25 h 1 v 1 H 8"
+         id="path810" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,25 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path809" />
+      <path
+         style="fill:#c0c0c0;fill-opacity:0.776471"
+         d="m 6,25 h 1 l -0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path808" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 5,25 h 1 l -0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path807" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,25 H 5 L 4.75,25.75 4,26"
+         id="path806" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,25 h 1 v 1 H 3"
+         id="path805" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,25 h 1 v 1 H 2"
+         id="path804" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,25 h 1 v 1 H 1"
+         id="path803" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,25 h 1 v 1 H 0"
+         id="path802" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,24 h 1 v 1 h -1"
+         id="path801" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,24 h 1 v 1 h -1"
+         id="path800" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,24 h 1 v 1 h -1"
+         id="path799" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,24 h 1 v 1 h -1"
+         id="path798" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,24 h 1 v 1 h -1"
+         id="path797" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,24 h 1 v 1 h -1"
+         id="path796" />
+      <path
+         style="fill:#b4b4b4;fill-opacity:0.466667"
+         d="m 25,24 h 1 v 1 h -1"
+         id="path795" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,24 h 1 v 1 h -1"
+         id="path794" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,24 h 1 v 1 h -1"
+         id="path793" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,24 h 1 v 1 h -1"
+         id="path792" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,24 h 1 v 1 h -1"
+         id="path791" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,24 h 1 v 1 h -1"
+         id="path790" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,24 h 1 v 1 h -1"
+         id="path789" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,24 h 1 v 1 h -1"
+         id="path788" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,24 h 1 v 1 h -1"
+         id="path787" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,24 h 1 v 1 h -1"
+         id="path786" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,24 h 1 v 1 h -1"
+         id="path785" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,24 h 1 v 1 h -1"
+         id="path784" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,24 h 1 v 1 h -1"
+         id="path783" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,24 h 1 v 1 h -1"
+         id="path782" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,24 h 1 v 1 h -1"
+         id="path781" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,24 h 1 v 1 h -1"
+         id="path780" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,24 h 1 v 1 H 9"
+         id="path779" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,24 h 1 v 1 H 8"
+         id="path778" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,24 h 1 v 1 H 7"
+         id="path777" />
+      <path
+         style="fill:#bbbbbb;fill-opacity:0.458824"
+         d="m 6,24 h 1 v 1 H 6"
+         id="path776" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 5,24 h 1 v 1 H 5"
+         id="path775" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 4,24 h 1 v 1 H 4"
+         id="path774" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,24 h 1 v 1 H 3"
+         id="path773" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,24 h 1 v 1 H 2"
+         id="path772" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,24 h 1 v 1 H 1"
+         id="path771" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,24 h 1 v 1 H 0"
+         id="path770" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,23 h 1 v 1 h -1"
+         id="path769" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,23 h 1 v 1 h -1"
+         id="path768" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,23 h 1 v 1 h -1"
+         id="path767" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,23 h 1 v 1 h -1"
+         id="path766" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 27.25,23.25 28,23 v 1 h -1"
+         id="path765" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,23 0.75,-0.25 0.5,0.5 L 27,24 h -1"
+         id="path764" />
+      <path
+         style="fill:#c4c4c4;fill-opacity:0.909804"
+         d="M 25.25,23.25 26,23 v 1 h -1"
+         id="path763" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,23 0.75,-0.25 0.5,0.5 L 25,24 h -1"
+         id="path762" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,23 h 1 v 1 h -1"
+         id="path761" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,23 h 1 v 1 h -1"
+         id="path760" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,23 h 1 v 1 h -1"
+         id="path759" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,23 h 1 v 1 h -1"
+         id="path758" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,23 h 1 v 1 h -1"
+         id="path757" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,23 h 1 v 1 h -1"
+         id="path756" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,23 h 1 v 1 h -1"
+         id="path755" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,23 h 1 v 1 h -1"
+         id="path754" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,23 h 1 v 1 h -1"
+         id="path753" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,23 h 1 v 1 h -1"
+         id="path752" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,23 h 1 v 1 h -1"
+         id="path751" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,23 h 1 v 1 h -1"
+         id="path750" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,23 h 1 v 1 h -1"
+         id="path749" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,23 h 1 v 1 h -1"
+         id="path748" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,23 h 1 v 1 H 9"
+         id="path747" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,23 h 1 v 1 H 8"
+         id="path746" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 6.75,23.25 7.25,22.75 8,23 v 1 H 7"
+         id="path745" />
+      <path
+         style="fill:#c8c8c8;fill-opacity:0.905882"
+         d="M 6,23 6.75,23.25 7,24 H 6"
+         id="path744" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4.75,23.25 5.25,22.75 6,23 v 1 H 5"
+         id="path743" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,23 4.75,23.25 5,24 H 4"
+         id="path742" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,23 h 1 v 1 H 3"
+         id="path741" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,23 h 1 v 1 H 2"
+         id="path740" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,23 h 1 v 1 H 1"
+         id="path739" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,23 h 1 v 1 H 0"
+         id="path738" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,22 h 1 v 1 h -1"
+         id="path737" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,22 h 1 v 1 h -1"
+         id="path736" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,22 h 1 v 1 h -1"
+         id="path735" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,22 h 1 v 1 h -1"
+         id="path734" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,22 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path733" />
+      <path
+         style="fill:#555555;fill-opacity:0.0235294"
+         d="m 26,22 h 1 L 26.75,22.75 26,23"
+         id="path732" />
+      <path
+         style="fill:#f6f6f6;fill-opacity:0.996078"
+         d="m 25,22 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path731" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,22 h 1 L 24.75,22.75 24,23"
+         id="path730" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,22 h 1 v 1 h -1"
+         id="path729" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,22 h 1 v 1 h -1"
+         id="path728" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,22 h 1 v 1 h -1"
+         id="path727" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,22 h 1 v 1 h -1"
+         id="path726" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,22 h 1 v 1 h -1"
+         id="path725" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,22 h 1 v 1 h -1"
+         id="path724" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,22 h 1 v 1 h -1"
+         id="path723" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,22 h 1 v 1 h -1"
+         id="path722" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,22 h 1 v 1 h -1"
+         id="path721" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,22 h 1 v 1 h -1"
+         id="path720" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,22 h 1 v 1 h -1"
+         id="path719" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,22 h 1 v 1 h -1"
+         id="path718" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,22 h 1 v 1 h -1"
+         id="path717" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,22 h 1 v 1 h -1"
+         id="path716" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,22 h 1 v 1 H 9"
+         id="path715" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,22 h 1 v 1 H 8"
+         id="path714" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,22 h 1 v 1 L 7.25,22.75"
+         id="path713" />
+      <path
+         style="fill:#f7f7f7;fill-opacity:0.996078"
+         d="m 6,22 h 1 l 0.25,0.75 -0.5,0.5 L 6,23"
+         id="path712" />
+      <path
+         style="fill:#6d6d6d;fill-opacity:0.027451"
+         d="m 5,22 h 1 v 1 L 5.25,22.75"
+         id="path711" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 4,22 h 1 l 0.25,0.75 -0.5,0.5 L 4,23"
+         id="path710" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,22 h 1 v 1 H 3"
+         id="path709" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,22 h 1 v 1 H 2"
+         id="path708" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,22 h 1 v 1 H 1"
+         id="path707" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,22 h 1 v 1 H 0"
+         id="path706" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,21 h 1 v 1 h -1"
+         id="path705" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,21 h 1 v 1 h -1"
+         id="path704" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,21 h 1 v 1 h -1"
+         id="path703" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,21 h 1 v 1 h -1"
+         id="path702" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,21 h 1 v 1 h -1"
+         id="path701" />
+      <path
+         style="fill:#7e7e7e;fill-opacity:0.270588"
+         d="m 26,21 h 1 v 1 h -1"
+         id="path700" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,21 h 1 v 1 h -1"
+         id="path699" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,21 h 1 v 1 h -1"
+         id="path698" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,21 h 1 v 1 h -1"
+         id="path697" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,21 h 1 v 1 h -1"
+         id="path696" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,21 h 1 v 1 h -1"
+         id="path695" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,21 h 1 v 1 h -1"
+         id="path694" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,21 h 1 v 1 h -1"
+         id="path693" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,21 h 1 v 1 h -1"
+         id="path692" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,21 h 1 v 1 h -1"
+         id="path691" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,21 h 1 v 1 h -1"
+         id="path690" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,21 h 1 v 1 h -1"
+         id="path689" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,21 h 1 v 1 h -1"
+         id="path688" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,21 h 1 v 1 h -1"
+         id="path687" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,21 h 1 v 1 h -1"
+         id="path686" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,21 h 1 v 1 h -1"
+         id="path685" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,21 h 1 v 1 h -1"
+         id="path684" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,21 h 1 v 1 H 9"
+         id="path683" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,21 h 1 v 1 H 8"
+         id="path682" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,21 h 1 v 1 H 7"
+         id="path681" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,21 h 1 v 1 H 6"
+         id="path680" />
+      <path
+         style="fill:#818181;fill-opacity:0.270588"
+         d="m 5,21 h 1 v 1 H 5"
+         id="path679" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 4,21 h 1 v 1 H 4"
+         id="path678" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,21 h 1 v 1 H 3"
+         id="path677" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,21 h 1 v 1 H 2"
+         id="path676" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,21 h 1 v 1 H 1"
+         id="path675" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,21 h 1 v 1 H 0"
+         id="path674" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,20 h 1 v 1 h -1"
+         id="path673" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,20 h 1 v 1 h -1"
+         id="path672" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,20 h 1 v 1 h -1"
+         id="path671" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,20 h 1 v 1 h -1"
+         id="path670" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 27.25,20.25 28,20 v 1 h -1"
+         id="path669" />
+      <path
+         style="fill:#afafaf;fill-opacity:0.32549"
+         d="m 26,20 0.75,-0.25 0.5,0.5 L 27,21 h -1"
+         id="path668" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,20 h 1 v 1 h -1"
+         id="path667" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,20 h 1 v 1 h -1"
+         id="path666" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,20 h 1 v 1 h -1"
+         id="path665" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,20 h 1 v 1 h -1"
+         id="path664" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,20 h 1 v 1 h -1"
+         id="path663" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,20 h 1 v 1 h -1"
+         id="path662" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,20 h 1 v 1 h -1"
+         id="path661" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,20 h 1 v 1 h -1"
+         id="path660" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,20 h 1 v 1 h -1"
+         id="path659" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,20 h 1 v 1 h -1"
+         id="path658" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,20 h 1 v 1 h -1"
+         id="path657" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,20 h 1 v 1 h -1"
+         id="path656" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,20 h 1 v 1 h -1"
+         id="path655" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,20 h 1 v 1 h -1"
+         id="path654" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,20 h 1 v 1 h -1"
+         id="path653" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,20 h 1 v 1 h -1"
+         id="path652" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,20 h 1 v 1 H 9"
+         id="path651" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,20 h 1 v 1 H 8"
+         id="path650" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,20 h 1 v 1 H 7"
+         id="path649" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,20 h 1 v 1 H 6"
+         id="path648" />
+      <path
+         style="fill:#b7b7b7;fill-opacity:0.321569"
+         d="M 4.75,20.25 5.25,19.75 6,20 v 1 H 5"
+         id="path647" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,20 4.75,20.25 5,21 H 4"
+         id="path646" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,20 h 1 v 1 H 3"
+         id="path645" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,20 h 1 v 1 H 2"
+         id="path644" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,20 h 1 v 1 H 1"
+         id="path643" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,20 h 1 v 1 H 0"
+         id="path642" />
+      <path
+         style="fill:#979797;fill-opacity:0.431373"
+         d="m 31,19 h 1 v 1 h -1"
+         id="path641" />
+      <path
+         style="fill:#b4b4b4;fill-opacity:0.788235"
+         d="m 30,19 h 1 v 1 h -1"
+         id="path640" />
+      <path
+         style="fill:#b6b6b6;fill-opacity:0.792157"
+         d="m 29,19 h 1 v 1 h -1"
+         id="path639" />
+      <path
+         style="fill:#b6b6b6;fill-opacity:0.792157"
+         d="m 28,19 h 1 v 1 h -1"
+         id="path638" />
+      <path
+         style="fill:#b6b6b6;fill-opacity:0.792157"
+         d="m 27,19 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path637" />
+      <path
+         style="fill:#c1c1c1;fill-opacity:0.890196"
+         d="M 26.25,19.25 27,19 26.75,19.75 26,20"
+         id="path636" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,19 0.75,-0.25 0.5,0.5 L 26,20 h -1"
+         id="path635" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,19 h 1 v 1 h -1"
+         id="path634" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,19 h 1 v 1 h -1"
+         id="path633" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,19 h 1 v 1 h -1"
+         id="path632" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,19 h 1 v 1 h -1"
+         id="path631" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,19 h 1 v 1 h -1"
+         id="path630" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,19 h 1 v 1 h -1"
+         id="path629" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,19 h 1 v 1 h -1"
+         id="path628" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,19 h 1 v 1 h -1"
+         id="path627" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,19 h 1 v 1 h -1"
+         id="path626" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,19 h 1 v 1 h -1"
+         id="path625" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,19 h 1 v 1 h -1"
+         id="path624" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,19 h 1 v 1 h -1"
+         id="path623" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,19 h 1 v 1 h -1"
+         id="path622" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,19 h 1 v 1 h -1"
+         id="path621" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,19 h 1 v 1 h -1"
+         id="path620" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,19 h 1 v 1 H 9"
+         id="path619" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,19 h 1 v 1 H 8"
+         id="path618" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,19 h 1 v 1 H 7"
+         id="path617" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 5.75,19.25 6.25,18.75 7,19 v 1 H 6"
+         id="path616" />
+      <path
+         style="fill:#c2c2c2;fill-opacity:0.886275"
+         d="M 5,19 5.75,19.25 6,20 5.25,19.75"
+         id="path615" />
+      <path
+         style="fill:#b6b6b6;fill-opacity:0.792157"
+         d="m 4,19 h 1 l 0.25,0.75 -0.5,0.5 L 4,20"
+         id="path614" />
+      <path
+         style="fill:#b6b6b6;fill-opacity:0.792157"
+         d="m 3,19 h 1 v 1 H 3"
+         id="path613" />
+      <path
+         style="fill:#b6b6b6;fill-opacity:0.792157"
+         d="m 2,19 h 1 v 1 H 2"
+         id="path612" />
+      <path
+         style="fill:#b4b4b4;fill-opacity:0.788235"
+         d="m 1,19 h 1 v 1 H 1"
+         id="path611" />
+      <path
+         style="fill:#999999;fill-opacity:0.423529"
+         d="m 0,19 h 1 v 1 H 0"
+         id="path610" />
+      <path
+         style="fill:#f4f4f4;fill-opacity:1"
+         d="m 30.75,18.25 0.5,-0.5 L 32,18 v 1 h -1"
+         id="path609" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 30,18 30.75,18.25 31,19 h -1"
+         id="path608" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 29,18 h 1 v 1 h -1"
+         id="path607" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 28,18 h 1 v 1 h -1"
+         id="path606" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 27,18 h 1 v 1 h -1"
+         id="path605" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 26,18 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path604" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,18 h 1 L 25.75,18.75 25,19"
+         id="path603" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,18 h 1 v 1 h -1"
+         id="path602" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,18 h 1 v 1 h -1"
+         id="path601" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,18 h 1 v 1 h -1"
+         id="path600" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,18 h 1 v 1 h -1"
+         id="path599" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,18 h 1 v 1 h -1"
+         id="path598" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,18 h 1 v 1 h -1"
+         id="path597" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,18 h 1 v 1 h -1"
+         id="path596" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,18 h 1 v 1 h -1"
+         id="path595" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,18 h 1 v 1 h -1"
+         id="path594" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,18 h 1 v 1 h -1"
+         id="path593" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,18 h 1 v 1 h -1"
+         id="path592" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,18 h 1 v 1 h -1"
+         id="path591" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,18 h 1 v 1 h -1"
+         id="path590" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,18 h 1 v 1 h -1"
+         id="path589" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,18 h 1 v 1 h -1"
+         id="path588" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,18 h 1 v 1 H 9"
+         id="path587" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,18 h 1 v 1 H 8"
+         id="path586" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,18 h 1 v 1 H 7"
+         id="path585" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,18 h 1 v 1 L 6.25,18.75"
+         id="path584" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 5,18 h 1 l 0.25,0.75 -0.5,0.5 L 5,19"
+         id="path583" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 4,18 h 1 v 1 H 4"
+         id="path582" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 3,18 h 1 v 1 H 3"
+         id="path581" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 2,18 h 1 v 1 H 2"
+         id="path580" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 1.25,18.25 2,18 v 1 H 1"
+         id="path579" />
+      <path
+         style="fill:#f4f4f4;fill-opacity:1"
+         d="m 0,18 0.75,-0.25 0.5,0.5 L 1,19 H 0"
+         id="path578" />
+      <path
+         style="fill:#cbcbcb;fill-opacity:0.917647"
+         d="m 31,17 h 1 v 1 l -0.75,-0.25"
+         id="path577" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 30,17 h 1 l 0.25,0.75 -0.5,0.5 L 30,18"
+         id="path576" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 29,17 h 1 v 1 h -1"
+         id="path575" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 28,17 h 1 v 1 h -1"
+         id="path574" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 27,17 h 1 v 1 h -1"
+         id="path573" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25.75,17.25 0.5,-0.5 L 27,17 v 1 h -1"
+         id="path572" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 25,17 25.75,17.25 26,18 h -1"
+         id="path571" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,17 h 1 v 1 h -1"
+         id="path570" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,17 h 1 v 1 h -1"
+         id="path569" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,17 h 1 v 1 h -1"
+         id="path568" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,17 h 1 v 1 h -1"
+         id="path567" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,17 h 1 v 1 h -1"
+         id="path566" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,17 h 1 v 1 h -1"
+         id="path565" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,17 h 1 v 1 h -1"
+         id="path564" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,17 h 1 v 1 h -1"
+         id="path563" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,17 h 1 v 1 h -1"
+         id="path562" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,17 h 1 v 1 h -1"
+         id="path561" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,17 h 1 v 1 h -1"
+         id="path560" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,17 h 1 v 1 h -1"
+         id="path559" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,17 h 1 v 1 h -1"
+         id="path558" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,17 h 1 v 1 h -1"
+         id="path557" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,17 h 1 v 1 h -1"
+         id="path556" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,17 h 1 v 1 H 9"
+         id="path555" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,17 h 1 v 1 H 8"
+         id="path554" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,17 h 1 v 1 H 7"
+         id="path553" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 6.25,17.25 7,17 v 1 H 6"
+         id="path552" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 5,17 0.75,-0.25 0.5,0.5 L 6,18 H 5"
+         id="path551" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 4,17 h 1 v 1 H 4"
+         id="path550" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 3,17 h 1 v 1 H 3"
+         id="path549" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 2,17 h 1 v 1 H 2"
+         id="path548" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 1,17 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path547" />
+      <path
+         style="fill:#cccccc;fill-opacity:0.913725"
+         d="M 0,17 H 1 L 0.75,17.75 0,18"
+         id="path546" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30.75,16.25 0.5,-0.5 L 32,16 v 1 h -1"
+         id="path545" />
+      <path
+         style="fill:#787878;fill-opacity:0.12549"
+         d="M 30,16 30.75,16.25 31,17 h -1"
+         id="path544" />
+      <path
+         style="fill:#787878;fill-opacity:0.133333"
+         d="m 29,16 h 1 v 1 h -1"
+         id="path543" />
+      <path
+         style="fill:#787878;fill-opacity:0.133333"
+         d="m 28,16 h 1 v 1 h -1"
+         id="path542" />
+      <path
+         style="fill:#787878;fill-opacity:0.133333"
+         d="m 26.75,16.25 0.5,-0.5 L 28,16 v 1 h -1"
+         id="path541" />
+      <path
+         style="fill:#919191;fill-opacity:0.52549"
+         d="M 26,16 26.75,16.25 27,17 26.25,16.75"
+         id="path540" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,16 h 1 l 0.25,0.75 -0.5,0.5 L 25,17"
+         id="path539" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,16 h 1 v 1 h -1"
+         id="path538" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,16 h 1 v 1 h -1"
+         id="path537" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,16 h 1 v 1 h -1"
+         id="path536" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,16 h 1 v 1 h -1"
+         id="path535" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,16 h 1 v 1 h -1"
+         id="path534" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,16 h 1 v 1 h -1"
+         id="path533" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,16 h 1 v 1 h -1"
+         id="path532" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,16 h 1 v 1 h -1"
+         id="path531" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,16 h 1 v 1 h -1"
+         id="path530" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,16 h 1 v 1 h -1"
+         id="path529" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,16 h 1 v 1 h -1"
+         id="path528" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,16 h 1 v 1 h -1"
+         id="path527" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,16 h 1 v 1 h -1"
+         id="path526" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,16 h 1 v 1 h -1"
+         id="path525" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,16 h 1 v 1 h -1"
+         id="path524" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,16 h 1 v 1 H 9"
+         id="path523" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,16 h 1 v 1 H 8"
+         id="path522" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,16 h 1 v 1 H 7"
+         id="path521" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,16 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path520" />
+      <path
+         style="fill:#949494;fill-opacity:0.513725"
+         d="M 5.25,16.25 6,16 5.75,16.75 5,17"
+         id="path519" />
+      <path
+         style="fill:#787878;fill-opacity:0.133333"
+         d="m 4,16 0.75,-0.25 0.5,0.5 L 5,17 H 4"
+         id="path518" />
+      <path
+         style="fill:#787878;fill-opacity:0.133333"
+         d="m 3,16 h 1 v 1 H 3"
+         id="path517" />
+      <path
+         style="fill:#787878;fill-opacity:0.133333"
+         d="m 2,16 h 1 v 1 H 2"
+         id="path516" />
+      <path
+         style="fill:#787878;fill-opacity:0.12549"
+         d="M 1.25,16.25 2,16 v 1 H 1"
+         id="path515" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,16 0.75,-0.25 0.5,0.5 L 1,17 H 0"
+         id="path514" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,15 h 1 v 1 l -0.75,-0.25"
+         id="path513" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,15 h 1 l 0.25,0.75 -0.5,0.5 L 30,16"
+         id="path512" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,15 h 1 v 1 h -1"
+         id="path511" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,15 h 1 v 1 h -1"
+         id="path510" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,15 h 1 v 1 l -0.75,-0.25"
+         id="path509" />
+      <path
+         style="fill:#9d9d9d;fill-opacity:0.407843"
+         d="m 26,15 h 1 l 0.25,0.75 -0.5,0.5 L 26,16"
+         id="path508" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,15 h 1 v 1 h -1"
+         id="path507" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,15 h 1 v 1 h -1"
+         id="path506" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,15 h 1 v 1 h -1"
+         id="path505" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,15 h 1 v 1 h -1"
+         id="path504" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,15 h 1 v 1 h -1"
+         id="path503" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,15 h 1 v 1 h -1"
+         id="path502" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,15 h 1 v 1 h -1"
+         id="path501" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,15 h 1 v 1 h -1"
+         id="path500" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,15 h 1 v 1 h -1"
+         id="path499" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,15 h 1 v 1 h -1"
+         id="path498" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,15 h 1 v 1 h -1"
+         id="path497" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,15 h 1 v 1 h -1"
+         id="path496" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,15 h 1 v 1 h -1"
+         id="path495" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,15 h 1 v 1 h -1"
+         id="path494" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,15 h 1 v 1 h -1"
+         id="path493" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,15 h 1 v 1 h -1"
+         id="path492" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,15 h 1 v 1 H 9"
+         id="path491" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,15 h 1 v 1 H 8"
+         id="path490" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,15 h 1 v 1 H 7"
+         id="path489" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,15 h 1 v 1 H 6"
+         id="path488" />
+      <path
+         style="fill:#a2a2a2;fill-opacity:0.396078"
+         d="m 5,15 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path487" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,15 H 5 L 4.75,15.75 4,16"
+         id="path486" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,15 h 1 v 1 H 3"
+         id="path485" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,15 h 1 v 1 H 2"
+         id="path484" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,15 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path483" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,15 H 1 L 0.75,15.75 0,16"
+         id="path482" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,14 h 1 v 1 h -1"
+         id="path481" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,14 h 1 v 1 h -1"
+         id="path480" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,14 h 1 v 1 h -1"
+         id="path479" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,14 h 1 v 1 h -1"
+         id="path478" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,14 h 1 v 1 h -1"
+         id="path477" />
+      <path
+         style="fill:#8e8e8e;fill-opacity:0.45098"
+         d="m 26,14 h 1 v 1 h -1"
+         id="path476" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,14 h 1 v 1 h -1"
+         id="path475" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,14 h 1 v 1 h -1"
+         id="path474" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,14 h 1 v 1 h -1"
+         id="path473" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,14 h 1 v 1 h -1"
+         id="path472" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,14 h 1 v 1 h -1"
+         id="path471" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,14 h 1 v 1 h -1"
+         id="path470" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,14 h 1 v 1 h -1"
+         id="path469" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,14 h 1 v 1 h -1"
+         id="path468" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,14 h 1 v 1 h -1"
+         id="path467" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,14 h 1 v 1 h -1"
+         id="path466" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,14 h 1 v 1 h -1"
+         id="path465" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,14 h 1 v 1 h -1"
+         id="path464" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,14 h 1 v 1 h -1"
+         id="path463" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,14 h 1 v 1 h -1"
+         id="path462" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,14 h 1 v 1 h -1"
+         id="path461" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,14 h 1 v 1 h -1"
+         id="path460" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,14 h 1 v 1 H 9"
+         id="path459" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,14 h 1 v 1 H 8"
+         id="path458" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,14 h 1 v 1 H 7"
+         id="path457" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,14 h 1 v 1 H 6"
+         id="path456" />
+      <path
+         style="fill:#909090;fill-opacity:0.443137"
+         d="m 5,14 h 1 v 1 H 5"
+         id="path455" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 4,14 h 1 v 1 H 4"
+         id="path454" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,14 h 1 v 1 H 3"
+         id="path453" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,14 h 1 v 1 H 2"
+         id="path452" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,14 h 1 v 1 H 1"
+         id="path451" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,14 h 1 v 1 H 0"
+         id="path450" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,13 h 1 v 1 h -1"
+         id="path449" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,13 h 1 v 1 h -1"
+         id="path448" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,13 h 1 v 1 h -1"
+         id="path447" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,13 h 1 v 1 h -1"
+         id="path446" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,13 h 1 v 1 h -1"
+         id="path445" />
+      <path
+         style="fill:#8e8e8e;fill-opacity:0.45098"
+         d="m 26,13 h 1 v 1 h -1"
+         id="path444" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,13 h 1 v 1 h -1"
+         id="path443" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,13 h 1 v 1 h -1"
+         id="path442" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,13 h 1 v 1 h -1"
+         id="path441" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,13 h 1 v 1 h -1"
+         id="path440" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,13 h 1 v 1 h -1"
+         id="path439" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,13 h 1 v 1 h -1"
+         id="path438" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,13 h 1 v 1 h -1"
+         id="path437" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,13 h 1 v 1 h -1"
+         id="path436" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,13 h 1 v 1 h -1"
+         id="path435" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,13 h 1 v 1 h -1"
+         id="path434" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,13 h 1 v 1 h -1"
+         id="path433" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,13 h 1 v 1 h -1"
+         id="path432" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,13 h 1 v 1 h -1"
+         id="path431" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,13 h 1 v 1 h -1"
+         id="path430" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,13 h 1 v 1 h -1"
+         id="path429" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,13 h 1 v 1 h -1"
+         id="path428" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,13 h 1 v 1 H 9"
+         id="path427" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,13 h 1 v 1 H 8"
+         id="path426" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,13 h 1 v 1 H 7"
+         id="path425" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,13 h 1 v 1 H 6"
+         id="path424" />
+      <path
+         style="fill:#909090;fill-opacity:0.443137"
+         d="m 5,13 h 1 v 1 H 5"
+         id="path423" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 4,13 h 1 v 1 H 4"
+         id="path422" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,13 h 1 v 1 H 3"
+         id="path421" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,13 h 1 v 1 H 2"
+         id="path420" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,13 h 1 v 1 H 1"
+         id="path419" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,13 h 1 v 1 H 0"
+         id="path418" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,12 h 1 v 1 h -1"
+         id="path417" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,12 h 1 v 1 h -1"
+         id="path416" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,12 h 1 v 1 h -1"
+         id="path415" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,12 h 1 v 1 h -1"
+         id="path414" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,12 h 1 v 1 h -1"
+         id="path413" />
+      <path
+         style="fill:#939393;fill-opacity:0.435294"
+         d="m 26,12 h 1 v 1 h -1"
+         id="path412" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,12 h 1 v 1 h -1"
+         id="path411" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,12 h 1 v 1 h -1"
+         id="path410" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,12 h 1 v 1 h -1"
+         id="path409" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,12 h 1 v 1 h -1"
+         id="path408" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,12 h 1 v 1 h -1"
+         id="path407" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,12 h 1 v 1 h -1"
+         id="path406" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,12 h 1 v 1 h -1"
+         id="path405" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,12 h 1 v 1 h -1"
+         id="path404" />
+      <path
+         style="fill:#d0d0d0;fill-opacity:0.921569"
+         d="m 16.75,12.25 0.5,-0.5 L 18,12 v 1 h -1"
+         id="path403" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 16,12 16.75,12.25 17,13 h -1"
+         id="path402" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 15.25,12.25 16,12 v 1 h -1"
+         id="path401" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 14,12 0.75,-0.25 0.5,0.5 L 15,13 h -1"
+         id="path400" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,12 h 1 v 1 h -1"
+         id="path399" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,12 h 1 v 1 h -1"
+         id="path398" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,12 h 1 v 1 h -1"
+         id="path397" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,12 h 1 v 1 h -1"
+         id="path396" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,12 h 1 v 1 H 9"
+         id="path395" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,12 h 1 v 1 H 8"
+         id="path394" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,12 h 1 v 1 H 7"
+         id="path393" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,12 h 1 v 1 H 6"
+         id="path392" />
+      <path
+         style="fill:#969696;fill-opacity:0.427451"
+         d="m 5,12 h 1 v 1 H 5"
+         id="path391" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 4,12 h 1 v 1 H 4"
+         id="path390" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 3,12 h 1 v 1 H 3"
+         id="path389" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,12 h 1 v 1 H 2"
+         id="path388" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,12 h 1 v 1 H 1"
+         id="path387" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,12 h 1 v 1 H 0"
+         id="path386" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,11 h 1 v 1 h -1"
+         id="path385" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,11 h 1 v 1 h -1"
+         id="path384" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,11 h 1 v 1 h -1"
+         id="path383" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 28.25,11.25 29,11 v 1 h -1"
+         id="path382" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,11 0.75,-0.25 0.5,0.5 L 28,12 h -1"
+         id="path381" />
+      <path
+         style="fill:#a3a3a3;fill-opacity:0.411765"
+         d="M 26.25,11.25 27,11 v 1 h -1"
+         id="path380" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,11 0.75,-0.25 0.5,0.5 L 26,12 h -1"
+         id="path379" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,11 h 1 v 1 h -1"
+         id="path378" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,11 h 1 v 1 h -1"
+         id="path377" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,11 h 1 v 1 h -1"
+         id="path376" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,11 h 1 v 1 h -1"
+         id="path375" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,11 h 1 v 1 h -1"
+         id="path374" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,11 h 1 v 1 h -1"
+         id="path373" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,11 h 1 v 1 h -1"
+         id="path372" />
+      <path
+         style="fill:#f8f8f8;fill-opacity:1"
+         d="m 17,11 h 1 v 1 l -0.75,-0.25"
+         id="path371" />
+      <path
+         style="fill:#e4e4e4;fill-opacity:0.980392"
+         d="m 16,11 h 1 l 0.25,0.75 -0.5,0.5 L 16,12"
+         id="path370" />
+      <path
+         style="fill:#e4e4e4;fill-opacity:0.980392"
+         d="m 15,11 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path369" />
+      <path
+         style="fill:#f8f8f8;fill-opacity:1"
+         d="m 14,11 h 1 L 14.75,11.75 14,12"
+         id="path368" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,11 h 1 v 1 h -1"
+         id="path367" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,11 h 1 v 1 h -1"
+         id="path366" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,11 h 1 v 1 h -1"
+         id="path365" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,11 h 1 v 1 h -1"
+         id="path364" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,11 h 1 v 1 H 9"
+         id="path363" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,11 h 1 v 1 H 8"
+         id="path362" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,11 h 1 v 1 H 7"
+         id="path361" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 5.75,11.25 6.25,10.75 7,11 v 1 H 6"
+         id="path360" />
+      <path
+         style="fill:#a8a8a8;fill-opacity:0.4"
+         d="M 5,11 5.75,11.25 6,12 H 5"
+         id="path359" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3.75,11.25 4.25,10.75 5,11 v 1 H 4"
+         id="path358" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3,11 3.75,11.25 4,12 H 3"
+         id="path357" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2,11 h 1 v 1 H 2"
+         id="path356" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,11 h 1 v 1 H 1"
+         id="path355" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,11 h 1 v 1 H 0"
+         id="path354" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,10 h 1 v 1 h -1"
+         id="path353" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,10 h 1 v 1 h -1"
+         id="path352" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 29.25,10.25 30,10 v 1 h -1"
+         id="path351" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28.25,10.25 0.5,-0.5 0.5,0.5 L 29,11 l -0.75,0.25 -0.5,-0.5"
+         id="path350" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0823529"
+         d="m 27,10 0.75,-0.25 0.5,0.5 -0.5,0.5 L 27,11"
+         id="path349" />
+      <path
+         style="fill:#dcdcdc;fill-opacity:0.960784"
+         d="m 26,10 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path348" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,10 h 1 L 25.75,10.75 25,11"
+         id="path347" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 24,10 h 1 v 1 h -1"
+         id="path346" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 23,10 h 1 v 1 h -1"
+         id="path345" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 22,10 h 1 v 1 h -1"
+         id="path344" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,10 h 1 v 1 h -1"
+         id="path343" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,10 h 1 v 1 h -1"
+         id="path342" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,10 h 1 v 1 h -1"
+         id="path341" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,10 h 1 v 1 h -1"
+         id="path340" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 17,10 h 1 v 1 h -1"
+         id="path339" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 16,10 h 1 v 1 h -1"
+         id="path338" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 15,10 h 1 v 1 h -1"
+         id="path337" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 14,10 h 1 v 1 h -1"
+         id="path336" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,10 h 1 v 1 h -1"
+         id="path335" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,10 h 1 v 1 h -1"
+         id="path334" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,10 h 1 v 1 h -1"
+         id="path333" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,10 h 1 v 1 h -1"
+         id="path332" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 9,10 h 1 v 1 H 9"
+         id="path331" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 8,10 h 1 v 1 H 8"
+         id="path330" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 7,10 h 1 v 1 H 7"
+         id="path329" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,10 h 1 v 1 L 6.25,10.75"
+         id="path328" />
+      <path
+         style="fill:#dddddd;fill-opacity:0.956863"
+         d="m 5,10 h 1 l 0.25,0.75 -0.5,0.5 L 5,11"
+         id="path327" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0823529"
+         d="M 3.75,10.25 4.25,9.75 5,10 v 1 L 4.25,10.75"
+         id="path326" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 2.75,10.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 3,11"
+         id="path325" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 2,10 2.75,10.25 3,11 H 2"
+         id="path324" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,10 h 1 v 1 H 1"
+         id="path323" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,10 h 1 v 1 H 0"
+         id="path322" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,9 h 1 v 1 h -1"
+         id="path321" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 30.25,9.25 31,9 v 1 h -1"
+         id="path320" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29.25,9.25 0.5,-0.5 0.5,0.5 L 30,10 l -0.75,0.25 -0.5,-0.5"
+         id="path319" />
+      <path
+         style="fill:#f3f3f3;fill-opacity:0.0862745"
+         d="m 28,9 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path318" />
+      <path
+         style="fill:#dbdbdb;fill-opacity:0.964706"
+         d="m 27,9 h 1 L 27.75,9.75 27,10"
+         id="path317" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 26,9 h 1 v 1 h -1"
+         id="path316" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 25,9 h 1 v 1 h -1"
+         id="path315" />
+      <path
+         style="fill:#e2e2e2;fill-opacity:0.980392"
+         d="M 24.25,9.25 25,9 v 1 h -1"
+         id="path314" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 23,9 0.75,-0.25 0.5,0.5 L 24,10 h -1"
+         id="path313" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 22,9 h 1 v 1 h -1"
+         id="path312" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 21,9 h 1 v 1 h -1"
+         id="path311" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 20,9 h 1 v 1 h -1"
+         id="path310" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 19,9 h 1 v 1 h -1"
+         id="path309" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 18,9 h 1 v 1 h -1"
+         id="path308" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 17,9 h 1 v 1 h -1"
+         id="path307" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 16,9 h 1 v 1 h -1"
+         id="path306" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 15,9 h 1 v 1 h -1"
+         id="path305" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 14,9 h 1 v 1 h -1"
+         id="path304" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 13,9 h 1 v 1 h -1"
+         id="path303" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 12,9 h 1 v 1 h -1"
+         id="path302" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 11,9 h 1 v 1 h -1"
+         id="path301" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 10,9 h 1 v 1 h -1"
+         id="path300" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="m 9,9 h 1 v 1 H 9"
+         id="path299" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.92549"
+         d="M 7.75,9.25 8.25,8.75 9,9 v 1 H 8"
+         id="path298" />
+      <path
+         style="fill:#e2e2e2;fill-opacity:0.980392"
+         d="M 7,9 7.75,9.25 8,10 H 7"
+         id="path297" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 6,9 h 1 v 1 H 6"
+         id="path296" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 5,9 h 1 v 1 H 5"
+         id="path295" />
+      <path
+         style="fill:#dcdcdc;fill-opacity:0.960784"
+         d="m 4,9 h 1 v 1 L 4.25,9.75"
+         id="path294" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0823529"
+         d="M 2.75,9.25 3.25,8.75 4,9 l 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path293" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1.75,9.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 2,10"
+         id="path292" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 1,9 1.75,9.25 2,10 H 1"
+         id="path291" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 0,9 h 1 v 1 H 0"
+         id="path290" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,8 h 1 v 1 h -1"
+         id="path289" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,8 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path288" />
+      <path
+         style="fill:#e9e9e9;fill-opacity:0.0901961"
+         d="m 29,8 h 1 l -0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path287" />
+      <path
+         style="fill:#dbdbdb;fill-opacity:0.964706"
+         d="m 28,8 h 1 L 28.75,8.75 28,9"
+         id="path286" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 27,8 h 1 v 1 h -1"
+         id="path285" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 26,8 h 1 v 1 h -1"
+         id="path284" />
+      <path
+         style="fill:#d5d5d5;fill-opacity:0.945098"
+         d="M 25.25,8.25 26,8 v 1 h -1"
+         id="path283" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0588235"
+         d="m 24.25,8.25 0.5,-0.5 0.5,0.5 L 25,9 24.25,9.25 23.75,8.75"
+         id="path282" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,8 0.75,-0.25 0.5,0.5 -0.5,0.5 L 23,9"
+         id="path281" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,8 h 1 v 1 h -1"
+         id="path280" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 21,8 h 1 v 1 h -1"
+         id="path279" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 20,8 h 1 v 1 h -1"
+         id="path278" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 19,8 h 1 v 1 h -1"
+         id="path277" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 18,8 h 1 v 1 h -1"
+         id="path276" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 17,8 h 1 v 1 h -1"
+         id="path275" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,8 h 1 v 1 h -1"
+         id="path274" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,8 h 1 v 1 h -1"
+         id="path273" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 14,8 h 1 v 1 h -1"
+         id="path272" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 13,8 h 1 v 1 h -1"
+         id="path271" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 12,8 h 1 v 1 h -1"
+         id="path270" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 11,8 h 1 v 1 h -1"
+         id="path269" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 10,8 h 1 v 1 h -1"
+         id="path268" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 9,8 h 1 V 9 H 9"
+         id="path267" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7.75,8.25 8.25,7.75 9,8 V 9 L 8.25,8.75"
+         id="path266" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0588235"
+         d="m 6.75,8.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 7,9"
+         id="path265" />
+      <path
+         style="fill:#d5d5d5;fill-opacity:0.945098"
+         d="M 6,8 6.75,8.25 7,9 H 6"
+         id="path264" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 5,8 H 6 V 9 H 5"
+         id="path263" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 4,8 H 5 V 9 H 4"
+         id="path262" />
+      <path
+         style="fill:#dcdcdc;fill-opacity:0.960784"
+         d="M 3,8 H 4 V 9 L 3.25,8.75"
+         id="path261" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0823529"
+         d="m 2,8 h 1 l 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path260" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0.75,8.25 1.25,7.75 2,8 2.25,8.75 1.75,9.25 1,9"
+         id="path259" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,8 0.75,8.25 1,9 H 0"
+         id="path258" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 31.25,7.25 32,7 v 1 h -1"
+         id="path257" />
+      <path
+         style="fill:#2b2b2b;fill-opacity:0.0470588"
+         d="m 30,7 0.75,-0.25 0.5,0.5 L 31,8 h -1"
+         id="path256" />
+      <path
+         style="fill:#d5d5d5;fill-opacity:0.960784"
+         d="m 29,7 h 1 v 1 h -1"
+         id="path255" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 28,7 h 1 v 1 h -1"
+         id="path254" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 27,7 h 1 v 1 h -1"
+         id="path253" />
+      <path
+         style="fill:#d6d6d6;fill-opacity:0.941176"
+         d="M 26.25,7.25 27,7 v 1 h -1"
+         id="path252" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0588235"
+         d="m 25.25,7.25 0.5,-0.5 0.5,0.5 L 26,8 25.25,8.25 24.75,7.75"
+         id="path251" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,7 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path250" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 23.25,7.25 24,7 23.75,7.75 23,8"
+         id="path249" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,7 0.75,-0.25 0.5,0.5 L 23,8 h -1"
+         id="path248" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 21,7 h 1 v 1 h -1"
+         id="path247" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 20,7 h 1 v 1 h -1"
+         id="path246" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 19,7 h 1 v 1 h -1"
+         id="path245" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 18,7 h 1 v 1 h -1"
+         id="path244" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 17,7 h 1 v 1 h -1"
+         id="path243" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 16,7 h 1 v 1 h -1"
+         id="path242" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 15,7 h 1 v 1 h -1"
+         id="path241" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 14,7 h 1 v 1 h -1"
+         id="path240" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 13,7 h 1 v 1 h -1"
+         id="path239" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 12,7 h 1 v 1 h -1"
+         id="path238" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 11,7 h 1 v 1 h -1"
+         id="path237" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 10,7 h 1 v 1 h -1"
+         id="path236" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8.75,7.25 9.25,6.75 10,7 V 8 H 9"
+         id="path235" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,7 8.75,7.25 9,8 8.25,7.75"
+         id="path234" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 6.75,7.25 7.25,6.75 8,7 8.25,7.75 7.75,8.25 7.25,7.75"
+         id="path233" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0588235"
+         d="m 5.75,7.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 6,8"
+         id="path232" />
+      <path
+         style="fill:#d5d5d5;fill-opacity:0.945098"
+         d="M 5,7 5.75,7.25 6,8 H 5"
+         id="path231" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 4,7 H 5 V 8 H 4"
+         id="path230" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 3,7 H 4 V 8 H 3"
+         id="path229" />
+      <path
+         style="fill:#d6d6d6;fill-opacity:0.956863"
+         d="M 2,7 H 3 V 8 H 2"
+         id="path228" />
+      <path
+         style="fill:#3b3b3b;fill-opacity:0.0509804"
+         d="M 1,7 H 2 V 8 L 1.25,7.75"
+         id="path227" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,7 H 1 L 1.25,7.75 0.75,8.25 0,8"
+         id="path226" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 30.75,6.25 31.25,5.75 32,6 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path225" />
+      <path
+         style="fill:#666666;fill-opacity:0.137255"
+         d="m 30,6 0.75,0.25 v 0.5 L 30,7"
+         id="path224" />
+      <path
+         style="fill:#fdfdfd;fill-opacity:1"
+         d="m 29,6 h 1 v 1 h -1"
+         id="path223" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 28.25,6.25 29,6 v 1 h -1"
+         id="path222" />
+      <path
+         style="fill:#d5d5d5;fill-opacity:0.945098"
+         d="m 27.25,6.25 0.5,-0.5 0.5,0.5 L 28,7 h -1"
+         id="path221" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0588235"
+         d="m 26.25,6.25 0.5,-0.5 0.5,0.5 L 27,7 26.25,7.25 25.75,6.75"
+         id="path220" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 25,6 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path219" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,6 h 1 L 24.75,6.75 24,7"
+         id="path218" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,6 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path217" />
+      <path
+         style="fill:#949494;fill-opacity:0.521569"
+         d="m 22,6 h 1 L 22.75,6.75 22,7"
+         id="path216" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 21,6 h 1 v 1 h -1"
+         id="path215" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 20,6 h 1 v 1 h -1"
+         id="path214" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 19,6 h 1 v 1 h -1"
+         id="path213" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 18,6 h 1 v 1 h -1"
+         id="path212" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 17,6 h 1 v 1 h -1"
+         id="path211" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 16,6 h 1 v 1 h -1"
+         id="path210" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 15,6 h 1 v 1 h -1"
+         id="path209" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 14,6 h 1 v 1 h -1"
+         id="path208" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 13,6 h 1 v 1 h -1"
+         id="path207" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 12,6 h 1 v 1 h -1"
+         id="path206" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 11,6 h 1 v 1 h -1"
+         id="path205" />
+      <path
+         style="fill:#cfcfcf;fill-opacity:0.929412"
+         d="m 10,6 h 1 v 1 h -1"
+         id="path204" />
+      <path
+         style="fill:#969696;fill-opacity:0.513725"
+         d="m 9,6 h 1 V 7 L 9.25,6.75"
+         id="path203" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,6 H 9 L 9.25,6.75 8.75,7.25 8,7"
+         id="path202" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7,6 H 8 V 7 L 7.25,6.75"
+         id="path201" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 5.75,6.25 6.25,5.75 7,6 7.25,6.75 6.75,7.25 6.25,6.75"
+         id="path200" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0588235"
+         d="m 4.75,6.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 5,7"
+         id="path199" />
+      <path
+         style="fill:#d5d5d5;fill-opacity:0.945098"
+         d="m 3.75,6.25 0.5,-0.5 0.5,0.5 L 5,7 H 4"
+         id="path198" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 3,6 3.75,6.25 4,7 H 3"
+         id="path197" />
+      <path
+         style="fill:#fdfdfd;fill-opacity:1"
+         d="M 2.25,6.25 3,6 V 7 H 2"
+         id="path196" />
+      <path
+         style="fill:#6d6d6d;fill-opacity:0.137255"
+         d="m 1.25,6.25 0.5,-0.5 0.5,0.5 L 2,7 H 1"
+         id="path195" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,6 0.75,5.75 1.25,6.25 1,7 H 0"
+         id="path194" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,5 h 1 V 6 L 31.25,5.75"
+         id="path193" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 29.75,5.25 30.25,4.75 31,5 31.25,5.75 30.75,6.25 30,6"
+         id="path192" />
+      <path
+         style="fill:#979797;fill-opacity:0.564706"
+         d="M 29,5 29.75,5.25 30,6 h -1"
+         id="path191" />
+      <path
+         style="fill:#acacac;fill-opacity:0.756863"
+         d="m 28,5 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path190" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.054902"
+         d="M 27.25,5.25 28,5 l -0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path189" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,5 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path188" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 25,5 h 1 L 25.75,5.75 25,6"
+         id="path187" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,5 h 1 v 1 h -1"
+         id="path186" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,5 h 1 v 1 h -1"
+         id="path185" />
+      <path
+         style="fill:#858585;fill-opacity:0.584314"
+         d="m 22,5 h 1 v 1 h -1"
+         id="path184" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 21,5 h 1 v 1 h -1"
+         id="path183" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,5 h 1 v 1 h -1"
+         id="path182" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,5 h 1 v 1 h -1"
+         id="path181" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,5 h 1 v 1 h -1"
+         id="path180" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 17,5 h 1 v 1 h -1"
+         id="path179" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 16,5 h 1 v 1 h -1"
+         id="path178" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 15,5 h 1 v 1 h -1"
+         id="path177" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 14,5 h 1 v 1 h -1"
+         id="path176" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,5 h 1 v 1 h -1"
+         id="path175" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,5 h 1 v 1 h -1"
+         id="path174" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 11,5 h 1 v 1 h -1"
+         id="path173" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 10,5 h 1 v 1 h -1"
+         id="path172" />
+      <path
+         style="fill:#898989;fill-opacity:0.568627"
+         d="m 9,5 h 1 V 6 H 9"
+         id="path171" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,5 H 9 V 6 H 8"
+         id="path170" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7,5 H 8 V 6 H 7"
+         id="path169" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 6,5 H 7 V 6 L 6.25,5.75"
+         id="path168" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4.75,5.25 5.25,4.75 6,5 6.25,5.75 5.75,6.25 5.25,5.75"
+         id="path167" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.054902"
+         d="m 4,5 0.75,0.25 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path166" />
+      <path
+         style="fill:#ababab;fill-opacity:0.760784"
+         d="M 3,5 H 4 L 4.25,5.75 3.75,6.25 3,6"
+         id="path165" />
+      <path
+         style="fill:#989898;fill-opacity:0.560784"
+         d="M 2.25,5.25 3,5 V 6 L 2.25,6.25 1.75,5.75"
+         id="path164" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 1,5 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path163" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,5 H 1 L 0.75,5.75 0,6"
+         id="path162" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,4 h 1 v 1 h -1"
+         id="path161" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,4 h 1 V 5 L 30.25,4.75"
+         id="path160" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,4 h 1 l 0.25,0.75 -0.5,0.5 L 29,5"
+         id="path159" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,4 h 1 v 1 h -1"
+         id="path158" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,4 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path157" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,4 h 1 L 26.75,4.75 26,5"
+         id="path156" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 25,4 h 1 v 1 h -1"
+         id="path155" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,4 h 1 v 1 h -1"
+         id="path154" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 22.75,4.25 23.25,3.75 24,4 v 1 h -1"
+         id="path153" />
+      <path
+         style="fill:#808080;fill-opacity:0.12549"
+         d="M 22,4 22.75,4.25 23,5 h -1"
+         id="path152" />
+      <path
+         style="fill:#fafafa;fill-opacity:1"
+         d="M 20.75,4.25 21.25,3.75 22,4 v 1 h -1"
+         id="path151" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 20,4 20.75,4.25 21,5 h -1"
+         id="path150" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,4 h 1 v 1 h -1"
+         id="path149" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,4 h 1 v 1 h -1"
+         id="path148" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 17,4 h 1 v 1 h -1"
+         id="path147" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 16,4 h 1 v 1 h -1"
+         id="path146" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 15,4 h 1 v 1 h -1"
+         id="path145" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 14,4 h 1 v 1 h -1"
+         id="path144" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,4 h 1 v 1 h -1"
+         id="path143" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,4 h 1 v 1 h -1"
+         id="path142" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 11.25,4.25 12,4 v 1 h -1"
+         id="path141" />
+      <path
+         style="fill:#fafafa;fill-opacity:1"
+         d="m 10,4 0.75,-0.25 0.5,0.5 L 11,5 h -1"
+         id="path140" />
+      <path
+         style="fill:#848484;fill-opacity:0.121569"
+         d="M 9.25,4.25 10,4 V 5 H 9"
+         id="path139" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,4 8.75,3.75 9.25,4.25 9,5 H 8"
+         id="path138" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7,4 H 8 V 5 H 7"
+         id="path137" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 6,4 H 7 V 5 H 6"
+         id="path136" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 5,4 H 6 V 5 L 5.25,4.75"
+         id="path135" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,4 H 5 L 5.25,4.75 4.75,5.25 4,5"
+         id="path134" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3,4 H 4 V 5 H 3"
+         id="path133" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 2,4 H 3 V 5 L 2.25,5.25 1.75,4.75"
+         id="path132" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 1,4 H 2 L 1.75,4.75 1,5"
+         id="path131" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,4 H 1 V 5 H 0"
+         id="path130" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,3 h 1 v 1 h -1"
+         id="path129" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,3 h 1 v 1 h -1"
+         id="path128" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,3 h 1 v 1 h -1"
+         id="path127" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,3 h 1 v 1 h -1"
+         id="path126" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,3 h 1 v 1 h -1"
+         id="path125" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,3 h 1 v 1 h -1"
+         id="path124" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 25,3 h 1 v 1 h -1"
+         id="path123" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,3 h 1 v 1 h -1"
+         id="path122" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,3 h 1 V 4 L 23.25,3.75"
+         id="path121" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,3 h 1 l 0.25,0.75 -0.5,0.5 L 22,4"
+         id="path120" />
+      <path
+         style="fill:#b5b5b5;fill-opacity:0.8"
+         d="M 20.75,3.25 21.25,2.75 22,3 V 4 L 21.25,3.75"
+         id="path119" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 20,3 0.75,0.25 0.5,0.5 -0.5,0.5 L 20,4"
+         id="path118" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 19,3 h 1 v 1 h -1"
+         id="path117" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,3 h 1 v 1 h -1"
+         id="path116" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 17,3 h 1 v 1 h -1"
+         id="path115" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 16,3 h 1 v 1 h -1"
+         id="path114" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 15,3 h 1 v 1 h -1"
+         id="path113" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 14,3 h 1 v 1 h -1"
+         id="path112" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,3 h 1 v 1 h -1"
+         id="path111" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12,3 h 1 v 1 h -1"
+         id="path110" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 11.25,3.25 12,3 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path109" />
+      <path
+         style="fill:#b7b7b7;fill-opacity:0.792157"
+         d="m 10,3 0.75,-0.25 0.5,0.5 -0.5,0.5 L 10,4"
+         id="path108" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 9,3 h 1 V 4 L 9.25,4.25 8.75,3.75"
+         id="path107" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,3 H 9 L 8.75,3.75 8,4"
+         id="path106" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7,3 H 8 V 4 H 7"
+         id="path105" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 6,3 H 7 V 4 H 6"
+         id="path104" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 5,3 H 6 V 4 H 5"
+         id="path103" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,3 H 5 V 4 H 4"
+         id="path102" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3,3 H 4 V 4 H 3"
+         id="path101" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 2,3 H 3 V 4 H 2"
+         id="path100" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 1,3 H 2 V 4 H 1"
+         id="path99" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,3 H 1 V 4 H 0"
+         id="path98" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,2 h 1 v 1 h -1"
+         id="path97" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,2 h 1 v 1 h -1"
+         id="path96" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,2 h 1 v 1 h -1"
+         id="path95" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,2 h 1 v 1 h -1"
+         id="path94" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,2 h 1 v 1 h -1"
+         id="path93" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,2 h 1 v 1 h -1"
+         id="path92" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 25,2 h 1 v 1 h -1"
+         id="path91" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,2 h 1 v 1 h -1"
+         id="path90" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,2 h 1 v 1 h -1"
+         id="path89" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 21.75,2.25 22.25,1.75 23,2 v 1 h -1"
+         id="path88" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0392157"
+         d="m 20.75,2.25 0.5,-0.5 0.5,0.5 L 22,3 21.25,2.75"
+         id="path87" />
+      <path
+         style="fill:#d7d7d7;fill-opacity:0.956863"
+         d="m 19.75,2.25 0.5,-0.5 0.5,0.5 0.5,0.5 -0.5,0.5 L 20,3"
+         id="path86" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18.75,2.25 0.5,-0.5 0.5,0.5 L 20,3 h -1"
+         id="path85" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 18,2 18.75,2.25 19,3 h -1"
+         id="path84" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 17,2 h 1 v 1 h -1"
+         id="path83" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 16,2 h 1 v 1 h -1"
+         id="path82" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 15,2 h 1 v 1 h -1"
+         id="path81" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 14,2 h 1 v 1 h -1"
+         id="path80" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="M 13.25,2.25 14,2 v 1 h -1"
+         id="path79" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 12.25,2.25 0.5,-0.5 0.5,0.5 L 13,3 h -1"
+         id="path78" />
+      <path
+         style="fill:#d7d7d7;fill-opacity:0.956863"
+         d="m 11.25,2.25 0.5,-0.5 0.5,0.5 L 12,3 11.25,3.25 10.75,2.75"
+         id="path77" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.0392157"
+         d="m 10.25,2.25 0.5,-0.5 0.5,0.5 -0.5,0.5 L 10,3"
+         id="path76" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 9,2 9.75,1.75 10.25,2.25 10,3 H 9"
+         id="path75" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,2 H 9 V 3 H 8"
+         id="path74" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7,2 H 8 V 3 H 7"
+         id="path73" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 6,2 H 7 V 3 H 6"
+         id="path72" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 5,2 H 6 V 3 H 5"
+         id="path71" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,2 H 5 V 3 H 4"
+         id="path70" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3,2 H 4 V 3 H 3"
+         id="path69" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 2,2 H 3 V 3 H 2"
+         id="path68" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 1,2 H 2 V 3 H 1"
+         id="path67" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,2 H 1 V 3 H 0"
+         id="path66" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,1 h 1 v 1 h -1"
+         id="path65" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,1 h 1 v 1 h -1"
+         id="path64" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,1 h 1 v 1 h -1"
+         id="path63" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,1 h 1 v 1 h -1"
+         id="path62" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,1 h 1 v 1 h -1"
+         id="path61" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,1 h 1 v 1 h -1"
+         id="path60" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 25,1 h 1 v 1 h -1"
+         id="path59" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,1 h 1 v 1 h -1"
+         id="path58" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,1 h 1 v 1 h -1"
+         id="path57" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,1 h 1 V 2 L 22.25,1.75"
+         id="path56" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 20.75,1.25 21.25,0.75 22,1 l 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path55" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.054902"
+         d="m 20,1 0.75,0.25 0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path54" />
+      <path
+         style="fill:#c4c4c4;fill-opacity:0.878431"
+         d="m 19,1 h 1 l 0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path53" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 18,1 h 1 l 0.25,0.75 -0.5,0.5 L 18,2"
+         id="path52" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 17,1 h 1 v 1 h -1"
+         id="path51" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 16,1 h 1 v 1 h -1"
+         id="path50" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 15,1 h 1 v 1 h -1"
+         id="path49" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 14,1 h 1 v 1 h -1"
+         id="path48" />
+      <path
+         style="fill:#ffffff;fill-opacity:1"
+         d="m 13,1 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path47" />
+      <path
+         style="fill:#c4c4c4;fill-opacity:0.878431"
+         d="m 12,1 h 1 l -0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path46" />
+      <path
+         style="fill:#ffffff;fill-opacity:0.054902"
+         d="M 11.25,1.25 12,1 l -0.25,0.75 -0.5,0.5 -0.5,-0.5"
+         id="path45" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 10,1 0.75,-0.25 0.5,0.5 -0.5,0.5 -0.5,0.5 -0.5,-0.5"
+         id="path44" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 9,1 h 1 L 9.75,1.75 9,2"
+         id="path43" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,1 H 9 V 2 H 8"
+         id="path42" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7,1 H 8 V 2 H 7"
+         id="path41" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 6,1 H 7 V 2 H 6"
+         id="path40" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 5,1 H 6 V 2 H 5"
+         id="path39" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,1 H 5 V 2 H 4"
+         id="path38" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3,1 H 4 V 2 H 3"
+         id="path37" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 2,1 H 3 V 2 H 2"
+         id="path36" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 1,1 H 2 V 2 H 1"
+         id="path35" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,1 H 1 V 2 H 0"
+         id="path34" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 31,0 h 1 v 1 h -1"
+         id="path33" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 30,0 h 1 v 1 h -1"
+         id="path32" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 29,0 h 1 v 1 h -1"
+         id="path31" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 28,0 h 1 v 1 h -1"
+         id="path30" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 27,0 h 1 v 1 h -1"
+         id="path29" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 26,0 h 1 v 1 h -1"
+         id="path28" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 25,0 h 1 v 1 h -1"
+         id="path27" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 24,0 h 1 v 1 h -1"
+         id="path26" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 23,0 h 1 v 1 h -1"
+         id="path25" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 22,0 h 1 v 1 h -1"
+         id="path24" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 21,0 h 1 V 1 L 21.25,0.75"
+         id="path23" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 20,0 h 1 l 0.25,0.75 -0.5,0.5 L 20,1"
+         id="path22" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 19,0 h 1 v 1 h -1"
+         id="path21" />
+      <path
+         style="fill:#8e8e8e;fill-opacity:0.372549"
+         d="m 18,0 h 1 v 1 h -1"
+         id="path20" />
+      <path
+         style="fill:#b1b1b1;fill-opacity:0.768627"
+         d="m 17,0 h 1 v 1 h -1"
+         id="path19" />
+      <path
+         style="fill:#c0c0c0;fill-opacity:0.886275"
+         d="m 16,0 h 1 v 1 h -1"
+         id="path18" />
+      <path
+         style="fill:#c0c0c0;fill-opacity:0.886275"
+         d="m 15,0 h 1 v 1 h -1"
+         id="path17" />
+      <path
+         style="fill:#b1b1b1;fill-opacity:0.768627"
+         d="m 14,0 h 1 v 1 h -1"
+         id="path16" />
+      <path
+         style="fill:#909090;fill-opacity:0.368627"
+         d="m 13,0 h 1 v 1 h -1"
+         id="path15" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 12,0 h 1 v 1 h -1"
+         id="path14" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 11,0 h 1 v 1 l -0.75,0.25 -0.5,-0.5"
+         id="path13" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 10,0 h 1 L 10.75,0.75 10,1"
+         id="path12" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="m 9,0 h 1 V 1 H 9"
+         id="path11" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 8,0 H 9 V 1 H 8"
+         id="path10" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 7,0 H 8 V 1 H 7"
+         id="path9" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 6,0 H 7 V 1 H 6"
+         id="path8" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 5,0 H 6 V 1 H 5"
+         id="path7" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 4,0 H 5 V 1 H 4"
+         id="path6" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 3,0 H 4 V 1 H 3"
+         id="path5" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 2,0 H 3 V 1 H 2"
+         id="path4" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 1,0 H 2 V 1 H 1"
+         id="path3" />
+      <path
+         style="fill:#000000;fill-opacity:0"
+         d="M 0,0 H 1 V 1 H 0"
+         id="path2" />
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import bugIcon from './assets/bug-white-32.png'
+import bugIcon from './assets/bug-white-32.svg'
 import folderIcon from './assets/folder-icon.svg'
 import clipboardIcon from './assets/clipboard-icon.svg'
 import listIcon from './assets/list-icon.svg'
@@ -200,8 +200,6 @@ function App() {
               </div>
             </div>
 
-        <hr className="border-white border-2 my-4" />
-
         <div className="row mb-4">
           <div className="col-12">
             <h2 className="text-white mb-3 fw-bold border-bottom border-white pb-2 d-flex align-items-center" style={{ fontSize: '24px' }}>
@@ -311,7 +309,7 @@ function App() {
                 <tbody>
                   {issues.length === 0 ? (
                     <tr>
-                      <td colSpan={5} className="text-center text-muted py-4">
+                      <td colSpan={5} className="text-center text-white py-4">
                         <i className="fas fa-inbox fa-2x mb-2 d-block"></i>
                         Noch keine Issues vorhanden. Erstelle dein erstes Issue!
                       </td>
@@ -368,7 +366,7 @@ function App() {
         </div>
 
         {/* Footer */}
-        <footer id="about" className="mt-5 pt-4 border-top border-white">
+        <footer id="about" className="mt-5 pt-4">
           <div className="text-center">
             <p className="text-white mb-2">
               <i className="fas fa-code me-1"></i>
