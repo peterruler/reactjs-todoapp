@@ -220,17 +220,26 @@ export const issueAPI = {
   async updateIssue(id: string, updates: Partial<Issue>): Promise<Issue | null> {
     try {
       // Find issue by client_id
-      const response = await fetch(`${API_BASE_URL}/Issue`)
-      const issues: RawIssue[] = await response.json()
+      const issuesResponse = await fetch(`${API_BASE_URL}/Issue`)
+      if (!issuesResponse.ok) {
+        throw new Error(`HTTP error! status: ${issuesResponse.status}`)
+      }
+      
+      const issues: RawIssue[] = await issuesResponse.json()
       const issue = issues.find(i => i.client_id === id)
       
-      if (!issue) return null
+      if (!issue) {
+        console.error('Issue not found with client_id:', id)
+        return null
+      }
       
       const rawUpdates: Partial<RawIssue> = {}
       if (updates.done !== undefined) rawUpdates.done = updates.done
       if (updates.title) rawUpdates.title = updates.title
       if (updates.dueDate) rawUpdates.due_date = updates.dueDate
       if (updates.priority) rawUpdates.priority = parseInt(updates.priority)
+      
+      console.log('Updating issue:', issue.id, 'with updates:', rawUpdates)
       
       const updateResponse = await fetch(`${API_BASE_URL}/Issue/${issue.id}`, {
         method: 'PATCH',
@@ -245,9 +254,34 @@ export const issueAPI = {
       }
       
       const updatedIssue = await updateResponse.json()
-      return {
-        ...transformIssue(updatedIssue),
-        projectId: updates.projectId || ''
+      console.log('Issue updated successfully:', updatedIssue)
+      
+      // For the checkbox toggle, we need to get the current projectId
+      // Let's get it from the projects to maintain consistency
+      const projectsResponse = await fetch(`${API_BASE_URL}/Project`)
+      if (projectsResponse.ok) {
+        const projects: RawProject[] = await projectsResponse.json()
+        const projectIdMap = new Map(projects.map(p => [p.id, p.client_id]))
+        const projectId = projectIdMap.get(updatedIssue.project_id) || ''
+        
+        return {
+          id: updatedIssue.client_id,
+          title: updatedIssue.title,
+          priority: updatedIssue.priority.toString(),
+          dueDate: updatedIssue.due_date,
+          done: updatedIssue.done,
+          projectId: projectId
+        }
+      } else {
+        // Fallback: return without projectId
+        return {
+          id: updatedIssue.client_id,
+          title: updatedIssue.title,
+          priority: updatedIssue.priority.toString(),
+          dueDate: updatedIssue.due_date,
+          done: updatedIssue.done,
+          projectId: '' // This might cause issues, but better than failing completely
+        }
       }
     } catch (error) {
       console.error('Error updating issue:', error)

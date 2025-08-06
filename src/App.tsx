@@ -108,21 +108,40 @@ function App() {
 
   const handleToggleIssue = async (id: string) => {
     const issue = issues.find(i => i.id === id)
-    if (!issue) return
+    if (!issue) {
+      console.error('Issue not found with id:', id)
+      return
+    }
+
+    console.log('Toggling issue:', id, 'from done:', issue.done, 'to done:', !issue.done)
+
+    // Optimistic update - update UI immediately
+    const newDoneState = !issue.done
+    const optimisticUpdate = issues.map(i => 
+      i.id === id ? { ...i, done: newDoneState } : i
+    )
+    setIssues(optimisticUpdate)
 
     try {
-      const updatedIssue = await issueAPI.updateIssue(id, { done: !issue.done })
+      const updatedIssue = await issueAPI.updateIssue(id, { done: newDoneState })
       
-      if (updatedIssue) {
-        setIssues(issues.map(i => 
+      if (!updatedIssue) {
+        console.error('API returned null for updated issue')
+        // Keep the optimistic update since the user expects immediate feedback
+        console.log('Keeping optimistic update due to API failure')
+      } else {
+        console.log('Issue successfully updated:', updatedIssue)
+        // Update with the actual response from server
+        setIssues(prevIssues => prevIssues.map(i => 
           i.id === id ? updatedIssue : i
         ))
-      } else {
-        setError('Fehler beim Aktualisieren des Issues')
       }
     } catch (err) {
       console.error('Error updating issue:', err)
-      setError('Fehler beim Aktualisieren des Issues')
+      console.log('JSON-Server might not be running. Keeping local change.')
+      // Keep the optimistic update for better UX when server is offline
+      // setIssues(issues) // Don't revert - let user continue working
+      setError('Warnung: Änderung nur lokal gespeichert. JSON-Server nicht erreichbar.')
     }
   }
 
