@@ -59,14 +59,14 @@ function App() {
   }
 
   const handleAddIssue = () => {
-    if (newIssue.title.trim()) {
+    if (newIssue.title.trim() && selectedProjects.length > 0) {
       const issue: Issue = {
         id: crypto.randomUUID(),
         title: newIssue.title.trim(),
         priority: newIssue.priority,
         dueDate: newIssue.dueDate,
         done: false,
-        projectId: selectedProjects[0] || ''
+        projectId: selectedProjects[0]
       }
       setIssues([...issues, issue])
       setNewIssue({ title: '', priority: '', dueDate: '' })
@@ -87,6 +87,17 @@ function App() {
     if (!dateString) return ''
     const date = new Date(dateString)
     return date.toLocaleDateString('de-DE')
+  }
+
+  // Filter issues based on selected project
+  const filteredIssues = selectedProjects.length > 0 
+    ? issues.filter(issue => selectedProjects.includes(issue.projectId))
+    : issues
+
+  // Get project name by ID
+  const getProjectName = (projectId: string) => {
+    const project = projects.find(p => p.id === projectId)
+    return project ? project.name : 'Kein Projekt'
   }
 
   return (
@@ -206,6 +217,12 @@ function App() {
               <img src={clipboardIcon} alt="Issues" className="me-2" style={{ width: '24px', height: '24px', filter: 'invert(1)' }} />
               Issues
             </h2>
+            {selectedProjects.length === 0 && (
+              <div className="alert alert-info" role="alert">
+                <i className="fas fa-info-circle me-2"></i>
+                Wählen Sie ein oder mehrere Projekte aus, um Issues anzuzeigen und zu erstellen.
+              </div>
+            )}
           </div>
         </div>
 
@@ -268,7 +285,8 @@ function App() {
                     className="btn btn-outline-light border-2" 
                     type="button"
                     onClick={handleAddIssue}
-                    disabled={!newIssue.title.trim()}
+                    disabled={!newIssue.title.trim() || selectedProjects.length === 0}
+                    title={selectedProjects.length === 0 ? "Bitte wählen Sie zuerst ein Projekt aus" : ""}
                   >
                     <i className="fas fa-plus me-1"></i>Erstellen
                   </button>
@@ -283,7 +301,7 @@ function App() {
           <div className="card-header bg-secondary text-light">
             <h5 className="card-title mb-0 d-flex align-items-center">
               <img src={listIcon} alt="Liste" className="me-2" style={{ width: '20px', height: '20px', filter: 'invert(1)' }} />
-              Issue Übersicht ({issues.length} Issues)
+              Issue Übersicht ({filteredIssues.length} Issues)
             </h5>
           </div>
           <div className="card-body p-0">
@@ -298,6 +316,9 @@ function App() {
                       <i className="fas fa-file-alt me-1"></i>Issue Name
                     </th>
                     <th scope="col" className="text-center">
+                      <i className="fas fa-folder me-1"></i>Projekt
+                    </th>
+                    <th scope="col" className="text-center">
                       <i className="fas fa-exclamation-triangle me-1"></i>Priorität
                     </th>
                     <th scope="col" className="text-center">
@@ -307,15 +328,17 @@ function App() {
                   </tr>
                 </thead>
                 <tbody>
-                  {issues.length === 0 ? (
+                  {filteredIssues.length === 0 ? (
                     <tr>
-                      <td colSpan={5} className="text-center text-white py-4">
+                      <td colSpan={6} className="text-center text-white py-4">
                         <i className="fas fa-inbox fa-2x mb-2 d-block"></i>
-                        Noch keine Issues vorhanden. Erstelle dein erstes Issue!
+                        {selectedProjects.length > 0 
+                          ? 'Keine Issues für das ausgewählte Projekt vorhanden.' 
+                          : 'Noch keine Issues vorhanden. Erstelle dein erstes Issue!'}
                       </td>
                     </tr>
                   ) : (
-                    issues.map(issue => (
+                    filteredIssues.map(issue => (
                       <tr key={issue.id} className={issue.done ? 'table-success bg-opacity-25' : ''}>
                         <td className="text-center">
                           <div className="form-check d-flex justify-content-center">
@@ -329,6 +352,12 @@ function App() {
                         </td>
                         <td className={issue.done ? 'text-decoration-line-through text-white' : 'text-light'}>
                           <strong>{issue.title}</strong>
+                        </td>
+                        <td className="text-center text-light">
+                          <span className="badge bg-info text-dark">
+                            <i className="fas fa-folder me-1"></i>
+                            {getProjectName(issue.projectId)}
+                          </span>
                         </td>
                         <td className="text-center">
                           {issue.priority === '1' && <span className="badge bg-danger">🔴 Hoch</span>}
