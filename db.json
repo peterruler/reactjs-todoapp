@@ -1,0 +1,81 @@
+{
+  "Project": [
+    {
+      "id": 0,
+      "client_id": "22c054b7-4078-4d02-9034-e4b186bcb81f",
+      "title": "This is the first project.",
+      "active": true
+    },
+    {
+      "id": 1,
+      "client_id": "3fa26724-cfa2-49a7-aecc-c40f6f75aa09",
+      "title": "This is the second project.",
+      "active": true
+    },
+    {
+      "id": 2,
+      "client_id": "7861ce1b-cea8-459b-bb5a-653652e29e77",
+      "title": "This is the third project.",
+      "active": true
+    },
+    {
+      "id": 3,
+      "client_id": "c6ddb25c-6b3e-4a46-bd85-028687a7b962",
+      "title": "This is the fourth project.",
+      "active": true
+    },
+    {
+      "id": 4,
+      "client_id": "4096f060-20a4-4379-91ed-518bc7f48776",
+      "title": "This is the fifth project.",
+      "active": true
+    }
+  ],
+  "Issue": [
+    {
+      "id": 0,
+      "client_id": "22c054b7-4078-4d02-9034-e4b186bcb81f",
+      "project_id": 0,
+      "done": false,
+      "title": "This is the first issue.",
+      "due_date": "2023-10-01",
+      "priority": 1
+    },
+    {
+      "id": 1,
+      "client_id": "3fa26724-cfa2-49a7-aecc-c40f6f75aa09",
+      "project_id": 1,
+      "done": true,
+      "title": "This is the second issue.",
+      "due_date": "2023-10-02",
+      "priority": 2
+    },
+    {
+      "id": 2,
+      "client_id": "7861ce1b-cea8-459b-bb5a-653652e29e77",
+      "project_id": 2,
+      "done": false,
+      "title": "This is the third issue.",
+      "due_date": "2023-10-03",
+      "priority": 3
+    },
+    {
+      "id": 3,
+      "client_id": "c6ddb25c-6b3e-4a46-bd85-028687a7b962",
+      "project_id": 2,
+      "done": true,
+      "title": "This is the fourth issue.",
+      "due_date": "2023-10-04",
+      "priority": 1
+    },
+    {
+      "id": 4,
+      "client_id": "77979acd-6158-4b2f-9740-fac295b3ec34",
+      "project_id": 4,
+      "done": false,
+      "title": "this is a new issue",
+      "due_date": "2025-08-06",
+      "priority": 2
+    }
+  ]
+}

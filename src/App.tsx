@@ -1,43 +1,18 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import bugIcon from './assets/bug-white-32.svg'
 import folderIcon from './assets/folder-icon.svg'
 import clipboardIcon from './assets/clipboard-icon.svg'
 import listIcon from './assets/list-icon.svg'
 import plusCircleIcon from './assets/plus-circle-icon.svg'
-
-interface Project {
-  id: string
-  name: string
-}
-
-interface Issue {
-  id: string
-  title: string
-  priority: string
-  dueDate: string
-  done: boolean
-  projectId: string
-}
+import { projectAPI, issueAPI } from './services/api'
+import type { Project, Issue } from './services/api'
 
 function App() {
-  const [projects, setProjects] = useState<Project[]>([
-    { id: '22c054b7-4078-4d02-9034-e4b186bcb81f', name: 'test' },
-    { id: '3fa26724-cfa2-49a7-aecc-c40f6f75aa09', name: 'foo bert' },
-    { id: '7861ce1b-cea8-459b-bb5a-653652e29e77', name: 'test2' },
-    { id: 'c6ddb25c-6b3e-4a46-bd85-028687a7b962', name: 'foo' }
-  ])
-
-  const [issues, setIssues] = useState<Issue[]>([
-    {
-      id: 'fa48263b-a110-4f25-a774-2fcf03f35d78',
-      title: 'bar',
-      priority: '2',
-      dueDate: '2025-01-10',
-      done: false,
-      projectId: ''
-    }
-  ])
+  const [projects, setProjects] = useState<Project[]>([])
+  const [issues, setIssues] = useState<Issue[]>([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<string | null>(null)
 
   const [selectedProjects, setSelectedProjects] = useState<string[]>([])
   const [newProjectName, setNewProjectName] = useState('')
@@ -47,40 +22,108 @@ function App() {
     dueDate: ''
   })
 
-  const handleAddProject = () => {
+  // Load data on component mount
+  useEffect(() => {
+    const loadData = async () => {
+      setLoading(true)
+      setError(null)
+      
+      try {
+        const [projectsData, issuesData] = await Promise.all([
+          projectAPI.getProjects(),
+          issueAPI.getIssues()
+        ])
+        
+        setProjects(projectsData)
+        setIssues(issuesData)
+      } catch (err) {
+        console.error('Error loading data:', err)
+        setError('Fehler beim Laden der Daten. Bitte stellen Sie sicher, dass der JSON-Server läuft.')
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    loadData()
+  }, [])
+
+  const handleAddProject = async () => {
     if (newProjectName.trim()) {
-      const newProject: Project = {
-        id: crypto.randomUUID(),
-        name: newProjectName.trim()
+      try {
+        const newProject = await projectAPI.createProject({
+          name: newProjectName.trim()
+        })
+        
+        if (newProject) {
+          setProjects([...projects, newProject])
+          setNewProjectName('')
+        } else {
+          setError('Fehler beim Erstellen des Projekts')
+        }
+      } catch (err) {
+        console.error('Error creating project:', err)
+        setError('Fehler beim Erstellen des Projekts')
       }
-      setProjects([...projects, newProject])
-      setNewProjectName('')
     }
   }
 
-  const handleAddIssue = () => {
+  const handleAddIssue = async () => {
     if (newIssue.title.trim() && selectedProjects.length > 0) {
-      const issue: Issue = {
-        id: crypto.randomUUID(),
-        title: newIssue.title.trim(),
-        priority: newIssue.priority,
-        dueDate: newIssue.dueDate,
-        done: false,
-        projectId: selectedProjects[0]
+      try {
+        const issue = await issueAPI.createIssue({
+          title: newIssue.title.trim(),
+          priority: newIssue.priority,
+          dueDate: newIssue.dueDate,
+          done: false,
+          projectId: selectedProjects[0]
+        })
+        
+        if (issue) {
+          setIssues([...issues, issue])
+          setNewIssue({ title: '', priority: '', dueDate: '' })
+        } else {
+          setError('Fehler beim Erstellen des Issues')
+        }
+      } catch (err) {
+        console.error('Error creating issue:', err)
+        setError('Fehler beim Erstellen des Issues')
       }
-      setIssues([...issues, issue])
-      setNewIssue({ title: '', priority: '', dueDate: '' })
     }
   }
 
-  const handleDeleteIssue = (id: string) => {
-    setIssues(issues.filter(issue => issue.id !== id))
+  const handleDeleteIssue = async (id: string) => {
+    try {
+      const success = await issueAPI.deleteIssue(id)
+      
+      if (success) {
+        setIssues(issues.filter(issue => issue.id !== id))
+      } else {
+        setError('Fehler beim Löschen des Issues')
+      }
+    } catch (err) {
+      console.error('Error deleting issue:', err)
+      setError('Fehler beim Löschen des Issues')
+    }
   }
 
-  const handleToggleIssue = (id: string) => {
-    setIssues(issues.map(issue => 
-      issue.id === id ? { ...issue, done: !issue.done } : issue
-    ))
+  const handleToggleIssue = async (id: string) => {
+    const issue = issues.find(i => i.id === id)
+    if (!issue) return
+
+    try {
+      const updatedIssue = await issueAPI.updateIssue(id, { done: !issue.done })
+      
+      if (updatedIssue) {
+        setIssues(issues.map(i => 
+          i.id === id ? updatedIssue : i
+        ))
+      } else {
+        setError('Fehler beim Aktualisieren des Issues')
+      }
+    } catch (err) {
+      console.error('Error updating issue:', err)
+      setError('Fehler beim Aktualisieren des Issues')
+    }
   }
 
   const formatDate = (dateString: string) => {
@@ -100,9 +143,38 @@ function App() {
     return project ? project.name : 'Kein Projekt'
   }
 
+  // Show loading state
+  if (loading) {
+    return (
+      <div className="bg-dark text-light min-vh-100 d-flex justify-content-center align-items-center">
+        <div className="text-center">
+          <div className="spinner-border text-light mb-3" role="status">
+            <span className="visually-hidden">Lade...</span>
+          </div>
+          <h4>Lade Daten...</h4>
+          <p className="text-muted">Stelle sicher, dass der JSON-Server läuft (http://localhost:3001)</p>
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="bg-dark text-light" style={{ minHeight: '100vh' }}>
       <h1 style={{ display: 'none' }}>Peter Strössler</h1>
+      
+      {/* Error Alert */}
+      {error && (
+        <div className="alert alert-danger alert-dismissible fade show m-3" role="alert">
+          <i className="fas fa-exclamation-triangle me-2"></i>
+          {error}
+          <button 
+            type="button" 
+            className="btn-close" 
+            onClick={() => setError(null)}
+            aria-label="Close"
+          ></button>
+        </div>
+      )}
       
       {/* Header */}
       <header style={{ paddingBottom: '20px' }}>
