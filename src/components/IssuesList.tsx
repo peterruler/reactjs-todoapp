@@ -23,7 +23,7 @@ function IssuesList({
   const filteredIssues = useMemo(() => {
     return selectedProjects.length > 0 
       ? issues.filter(issue => selectedProjects.includes(issue.projectId))
-      : issues
+      : []
   }, [issues, selectedProjects])
 
   // Get project name by ID
@@ -109,7 +109,7 @@ function IssuesList({
                     <i className="fas fa-inbox fa-2x mb-2 d-block"></i>
                     {selectedProjects.length > 0 
                       ? 'Keine Issues für das ausgewählte Projekt vorhanden.' 
-                      : 'Noch keine Issues vorhanden. Erstelle dein erstes Issue!'}
+                      : 'Wählen Sie ein Projekt aus, um Issues anzuzeigen.'}
                   </td>
                 </tr>
               ) : (
