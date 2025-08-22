@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run dev\"",
+    "server": "npx json-server --watch db.json --port 3001",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
