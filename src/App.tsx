@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import bugIcon from './assets/bug-white-32.svg'
 import folderIcon from './assets/folder-icon.svg'
 import clipboardIcon from './assets/clipboard-icon.svg'
 import { projectAPI, issueAPI } from './services/api'
@@ -9,6 +8,8 @@ import CreateProject from './components/CreateProject'
 import CreateIssue from './components/CreateIssue'
 import ListProjects from './components/ListProjects'
 import IssuesList from './components/IssuesList'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 function App() {
   const [projects, setProjects] = useState<Project[]>([])
@@ -151,46 +152,7 @@ function App() {
       )}
       
       {/* Header */}
-      <header style={{ paddingBottom: '20px' }}>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-light">
-          <div className="container-fluid container">
-            <a className="navbar-brand text-white d-flex align-items-center" href="#">
-              <img src={bugIcon} alt="Bug Tracker" className="me-2" style={{ width: '32px', height: '32px' }} />
-              <span className="title fw-bold">Issue Tracker</span>
-            </a>
-            <button 
-              className="navbar-toggler border-white" 
-              type="button" 
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDropdown" 
-              aria-controls="navbarNavDropdown" 
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="navbar-collapse collapse" id="navbarNavDropdown">
-              <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a className="nav-link active text-white fw-bold" aria-current="page" href="#">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-light" href="#about">
-                    Über
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-light" href="mailto:peter.stroessler@bluewin.ch?subject=todoapp">
-                    Kontakt
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+      <Header />
 
       {/* Main Content */}
       <div className="min-vh-100 bg-dark text-light" style={{ 
@@ -253,19 +215,7 @@ function App() {
         />
 
         {/* Footer */}
-        <footer id="about" className="mt-5 pt-4">
-          <div className="text-center">
-            <p className="text-white mb-2">
-              <i className="fas fa-code me-1"></i>
-              Built with React & Bootstrap
-            </p>
-            <p className="text-light">
-              <a href="https://peterruler.github.io/" className="text-white text-decoration-none fw-bold">
-                Made with <i className="fas fa-heart text-danger"></i> by Peter © 2025
-              </a>
-            </p>
-          </div>
-        </footer>
+        <Footer />
           </div>
         </div>
       </div>
