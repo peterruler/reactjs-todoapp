@@ -16,16 +16,16 @@ export interface Issue {
 
 // Raw API interfaces (as they come from the server)
 interface RawProject {
-  id: number
+  id: string  // JSON-Server returns id as string
   client_id: string
   title: string
   active: boolean
 }
 
 interface RawIssue {
-  id: number
+  id: string  // JSON-Server returns id as string
   client_id: string
-  project_id: number
+  project_id: number  // This remains number in the data
   done: boolean
   title: string
   due_date: string
@@ -70,10 +70,10 @@ export const projectAPI = {
       // Get existing projects to determine next ID
       const response = await fetch(`${API_BASE_URL}/Project`)
       const existingProjects: RawProject[] = await response.json()
-      const nextId = Math.max(...existingProjects.map(p => p.id), -1) + 1
+      const nextId = Math.max(...existingProjects.map(p => parseInt(p.id)), -1) + 1
       
       const newRawProject: RawProject = {
-        id: nextId,
+        id: nextId.toString(),
         client_id: crypto.randomUUID(),
         title: project.name,
         active: true
@@ -143,7 +143,8 @@ export const issueAPI = {
       const rawProjects: RawProject[] = await projectsResponse.json()
       
       // Create project_id to client_id mapping
-      const projectIdMap = new Map(rawProjects.map(p => [p.id, p.client_id]))
+      // Note: JSON-Server returns id as string, but project_id in issues is number
+      const projectIdMap = new Map(rawProjects.map(p => [parseInt(p.id), p.client_id]))
       
       return rawIssues.map(rawIssue => ({
         ...transformIssue(rawIssue),
@@ -172,7 +173,7 @@ export const issueAPI = {
       // Get existing issues to determine next ID
       const issuesResponse = await fetch(`${API_BASE_URL}/Issue`)
       const existingIssues: RawIssue[] = await issuesResponse.json()
-      const nextId = Math.max(...existingIssues.map(i => i.id), -1) + 1
+      const nextId = Math.max(...existingIssues.map(i => parseInt(i.id)), -1) + 1
       
       // Find project by client_id to get project_id
       const projectsResponse = await fetch(`${API_BASE_URL}/Project`)
@@ -184,9 +185,9 @@ export const issueAPI = {
       }
       
       const newRawIssue: RawIssue = {
-        id: nextId,
+        id: nextId.toString(),
         client_id: crypto.randomUUID(),
-        project_id: project.id,
+        project_id: parseInt(project.id),
         done: issue.done,
         title: issue.title,
         due_date: issue.dueDate,
