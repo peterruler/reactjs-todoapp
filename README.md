@@ -196,4 +196,4 @@ export default tseslint.config([
 
 # Demo Screenshot
 
-![Todo App Screenshot](_Project/screeenshot.png)
+![Todo App Screenshot](_Project/screenshot.png)

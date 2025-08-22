@@ -10,6 +10,9 @@ import ListProjects from './components/ListProjects'
 import IssuesList from './components/IssuesList'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Loading from './components/Loading'
+import ErrorAlert from './components/ErrorAlert'
+import ChooseProject from './components/ChooseProject'
 
 function App() {
   const [projects, setProjects] = useState<Project[]>([])
@@ -121,14 +124,10 @@ function App() {
   // Show loading state
   if (loading) {
     return (
-      <div className="bg-dark text-light min-vh-100 d-flex justify-content-center align-items-center">
-        <div className="text-center">
-          <div className="spinner-border text-light mb-3" role="status">
-            <span className="visually-hidden">Lade...</span>
-          </div>
-          <h4>Lade Daten...</h4>
-          <p className="text-muted">Stelle sicher, dass der JSON-Server läuft (http://localhost:3001)</p>
-        </div>
+      <div className="container mt-5">
+        <Header />
+        <Loading />
+        <Footer />
       </div>
     )
   }
@@ -138,20 +137,12 @@ function App() {
       <h1 style={{ display: 'none' }}>Peter Strössler</h1>
       
       {/* Error Alert */}
-      {error && (
-        <div className="alert alert-danger alert-dismissible fade show m-3" role="alert">
-          <i className="fas fa-exclamation-triangle me-2"></i>
-          {error}
-          <button 
-            type="button" 
-            className="btn-close" 
-            onClick={() => setError(null)}
-            aria-label="Close"
-          ></button>
-        </div>
-      )}
-      
-      {/* Header */}
+        {error && (
+          <ErrorAlert 
+            error={error} 
+            onDismiss={() => setError(null)} 
+          />
+        )}      {/* Header */}
       <Header />
 
       {/* Main Content */}
@@ -189,12 +180,7 @@ function App() {
               <img src={clipboardIcon} alt="Issues" className="me-2" style={{ width: '24px', height: '24px', filter: 'invert(1)' }} />
               Issues
             </h2>
-            {selectedProjects.length === 0 && (
-              <div className="alert alert-info" role="alert">
-                <i className="fas fa-info-circle me-2"></i>
-                Wählen Sie ein oder mehrere Projekte aus, um Issues anzuzeigen und zu erstellen.
-              </div>
-            )}
+          <ChooseProject selectedProjects={selectedProjects} />
           </div>
         </div>
 

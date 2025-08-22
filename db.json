@@ -93,7 +93,7 @@
       "done": false,
       "title": "this is a new issue",
       "due_date": "2025-08-06",
-      "priority": 2
+      "priority": 1
     },
     {
       "id": 5,
@@ -102,10 +102,19 @@
       "done": false,
       "title": "this is another issue...",
       "due_date": "2025-08-06",
-      "priority": 1
+      "priority": 2
     },
     {
       "id": 6,
+      "client_id": "88979acd-6158-4b2f-9740-fac295b3ec35",
+      "project_id": 4,
+      "done": false,
+      "title": "this is a new issue",
+      "due_date": "2025-08-07",
+      "priority": 3
+    },
+    {
+      "id": 7,
       "client_id": "dba5eaac-1c24-4c9b-a644-dc076ba156bd",
       "project_id": 6,
       "done": false,
@@ -114,7 +123,7 @@
       "priority": 1
     },
     {
-      "id": "7",
+      "id": 8,
       "client_id": "3026ab6f-d203-42eb-9582-172919d39313",
       "project_id": 7,
       "done": false,
