@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import './App.css'
 import bugIcon from './assets/bug-white-32.svg'
 import folderIcon from './assets/folder-icon.svg'
@@ -161,6 +161,39 @@ function App() {
     const project = projects.find(p => p.id === projectId)
     return project ? project.name : 'Kein Projekt'
   }
+
+  // Calculate dynamic width for project badges
+  const maxProjectNameLength = useMemo(() => {
+    if (projects.length === 0) return 84; // fallback width (70% of 120)
+    const allNames = [...projects.map(p => p.name), 'Kein Projekt'];
+    const longestName = allNames.reduce((longest, current) => 
+      current.length > longest.length ? current : longest, ''
+    );
+    // Approximate 8px per character + padding + icon width, reduced to 70%
+    const fullWidth = Math.max(120, longestName.length * 8 + 60);
+    return Math.round(fullWidth * 0.7);
+  }, [projects]);
+
+  // Calculate dynamic width for priority badges
+  const maxPriorityBadgeLength = useMemo(() => {
+    const priorityTexts = ['🔴 Hoch', '🟡 Mittel', '🟢 Niedrig', '-'];
+    const longestText = priorityTexts.reduce((longest, current) => 
+      current.length > longest.length ? current : longest, ''
+    );
+    // Approximate 8px per character + padding
+    return Math.max(80, longestText.length * 8 + 20);
+  }, []);
+
+  // Calculate dynamic width for due date badges
+  const maxDueDateBadgeLength = useMemo(() => {
+    // Consider typical German date format "DD.MM.YYYY" plus icon and "Kein Datum"
+    const dateTexts = ['📅 31.12.2025', 'Kein Datum'];
+    const longestText = dateTexts.reduce((longest, current) => 
+      current.length > longest.length ? current : longest, ''
+    );
+    // Approximate 8px per character + padding + icon width
+    return Math.max(120, longestText.length * 8 + 30);
+  }, []);
 
   // Show loading state
   if (loading) {
@@ -445,25 +478,67 @@ function App() {
                           <strong>{issue.title}</strong>
                         </td>
                         <td className="text-center text-light">
-                          <span className="badge bg-info text-dark">
+                          <span 
+                            className="badge bg-info text-dark project-badge"
+                            style={{ 
+                              minWidth: `${maxProjectNameLength}px`,
+                              maxWidth: `${maxProjectNameLength}px`
+                            }}
+                          >
                             <i className="fas fa-folder me-1"></i>
                             {getProjectName(issue.projectId)}
                           </span>
                         </td>
                         <td className="text-center">
-                          {issue.priority === '1' && <span className="badge bg-danger">🔴 Hoch</span>}
-                          {issue.priority === '2' && <span className="badge bg-warning">🟡 Mittel</span>}
-                          {issue.priority === '3' && <span className="badge bg-success">🟢 Niedrig</span>}
-                          {!issue.priority && <span className="badge bg-secondary">-</span>}
+                          {issue.priority === '1' && (
+                            <span 
+                              className="badge bg-danger priority-badge"
+                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
+                            >
+                              🔴 Hoch
+                            </span>
+                          )}
+                          {issue.priority === '2' && (
+                            <span 
+                              className="badge bg-warning priority-badge"
+                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
+                            >
+                              🟡 Mittel
+                            </span>
+                          )}
+                          {issue.priority === '3' && (
+                            <span 
+                              className="badge bg-success priority-badge"
+                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
+                            >
+                              🟢 Niedrig
+                            </span>
+                          )}
+                          {!issue.priority && (
+                            <span 
+                              className="badge bg-secondary priority-badge"
+                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
+                            >
+                              -
+                            </span>
+                          )}
                         </td>
                         <td className="text-center text-light">
                           {issue.dueDate ? (
-                            <span className="badge border border-white text-white">
+                            <span 
+                              className="badge border border-white text-white due-date-badge"
+                              style={{ minWidth: `${maxDueDateBadgeLength}px` }}
+                            >
                               <i className="fas fa-calendar-day me-1"></i>
                               {formatDate(issue.dueDate)}
                             </span>
                           ) : (
-                            <span className="badge bg-secondary">Kein Datum</span>
+                            <span 
+                              className="badge bg-secondary due-date-badge"
+                              style={{ minWidth: `${maxDueDateBadgeLength}px` }}
+                            >
+                              Kein Datum
+                            </span>
                           )}
                         </td>
                         <td className="text-center">

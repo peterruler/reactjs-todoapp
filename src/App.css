@@ -225,6 +225,34 @@ body {
   transition: transform 0.2s ease;
 }
 
+/* Project badge uniform width */
+.project-badge {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%; /* Ensure ellipsis works properly */
+}
+
+/* Priority badge uniform width */
+.priority-badge {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Due date badge uniform width */
+.due-date-badge {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* Custom animations for icons */
 .fas {
   transition: color 0.2s ease;

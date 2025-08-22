@@ -97,6 +97,15 @@
       "title": "this is another issue...",
       "due_date": "2025-08-06",
       "priority": 1
+    },
+    {
+      "id": 6,
+      "client_id": "dba5eaac-1c24-4c9b-a644-dc076ba156bd",
+      "project_id": 6,
+      "done": false,
+      "title": "this is the seventh issue...",
+      "due_date": "2025-08-06",
+      "priority": 1
     }
   ]
 }
