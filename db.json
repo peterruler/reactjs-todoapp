@@ -41,6 +41,12 @@
       "client_id": "c275a7d3-1004-4905-bb6a-a3f7c3be26b7",
       "title": "This is the seventh project.",
       "active": true
+    },
+    {
+      "id": "7",
+      "client_id": "387040ed-1cc0-4e62-be12-dabc39947bcd",
+      "title": "foo",
+      "active": true
     }
   ],
   "Issue": [
@@ -106,6 +112,15 @@
       "title": "this is the seventh issue...",
       "due_date": "2025-08-06",
       "priority": 1
+    },
+    {
+      "id": "7",
+      "client_id": "3026ab6f-d203-42eb-9582-172919d39313",
+      "project_id": 7,
+      "done": false,
+      "title": "foobert99",
+      "due_date": "2025-08-22",
+      "priority": 3
     }
   ]
 }

@@ -4,9 +4,10 @@ import bugIcon from './assets/bug-white-32.svg'
 import folderIcon from './assets/folder-icon.svg'
 import clipboardIcon from './assets/clipboard-icon.svg'
 import listIcon from './assets/list-icon.svg'
-import plusCircleIcon from './assets/plus-circle-icon.svg'
 import { projectAPI, issueAPI } from './services/api'
 import type { Project, Issue } from './services/api'
+import CreateProject from './components/CreateProject'
+import CreateIssue from './components/CreateIssue'
 
 function App() {
   const [projects, setProjects] = useState<Project[]>([])
@@ -15,12 +16,6 @@ function App() {
   const [error, setError] = useState<string | null>(null)
 
   const [selectedProjects, setSelectedProjects] = useState<string[]>([])
-  const [newProjectName, setNewProjectName] = useState('')
-  const [newIssue, setNewIssue] = useState({
-    title: '',
-    priority: '',
-    dueDate: ''
-  })
 
   // Load data on component mount
   useEffect(() => {
@@ -47,48 +42,20 @@ function App() {
     loadData()
   }, [])
 
-  const handleAddProject = async () => {
-    if (newProjectName.trim()) {
-      try {
-        const newProject = await projectAPI.createProject({
-          name: newProjectName.trim()
-        })
-        
-        if (newProject) {
-          setProjects([...projects, newProject])
-          setNewProjectName('')
-        } else {
-          setError('Fehler beim Erstellen des Projekts')
-        }
-      } catch (err) {
-        console.error('Error creating project:', err)
-        setError('Fehler beim Erstellen des Projekts')
-      }
-    }
+  const handleProjectCreated = (newProject: Project) => {
+    setProjects([...projects, newProject])
   }
 
-  const handleAddIssue = async () => {
-    if (newIssue.title.trim() && selectedProjects.length > 0) {
-      try {
-        const issue = await issueAPI.createIssue({
-          title: newIssue.title.trim(),
-          priority: newIssue.priority,
-          dueDate: newIssue.dueDate,
-          done: false,
-          projectId: selectedProjects[0]
-        })
-        
-        if (issue) {
-          setIssues([...issues, issue])
-          setNewIssue({ title: '', priority: '', dueDate: '' })
-        } else {
-          setError('Fehler beim Erstellen des Issues')
-        }
-      } catch (err) {
-        console.error('Error creating issue:', err)
-        setError('Fehler beim Erstellen des Issues')
-      }
-    }
+  const handleProjectCreationError = (errorMessage: string) => {
+    setError(errorMessage)
+  }
+
+  const handleIssueCreated = (newIssue: Issue) => {
+    setIssues([...issues, newIssue])
+  }
+
+  const handleIssueCreationError = (errorMessage: string) => {
+    setError(errorMessage)
   }
 
   const handleDeleteIssue = async (id: string) => {
@@ -308,31 +275,10 @@ function App() {
                   ))}
                 </select>
               </div>
-              <div className="col-md-8 mb-3">
-                <label htmlFor="new-project" className="form-label text-light fw-semibold">
-                  Neues Projekt hinzufügen:
-                </label>
-                <div className="input-group">
-                  <input 
-                    type="text" 
-                    id="new-project"
-                    className="form-control bg-dark text-light border-secondary" 
-                    aria-label="Project Name"
-                    placeholder="Projektname eingeben..."
-                    value={newProjectName}
-                    onChange={(e) => setNewProjectName(e.target.value)}
-                    onKeyPress={(e) => e.key === 'Enter' && handleAddProject()}
-                  />
-                  <button 
-                    className="btn btn-outline-light border-2" 
-                    type="button"
-                    onClick={handleAddProject}
-                    disabled={!newProjectName.trim()}
-                  >
-                    <i className="fas fa-plus me-1"></i>Hinzufügen
-                  </button>
-                </div>
-              </div>
+              <CreateProject 
+                onProjectCreated={handleProjectCreated}
+                onError={handleProjectCreationError}
+              />
             </div>
 
         <div className="row mb-4">
@@ -351,74 +297,11 @@ function App() {
         </div>
 
         {/* New Issue Form */}
-        <div className="card bg-dark border-secondary mb-4">
-          <div className="card-header bg-secondary text-light">
-            <h5 className="card-title mb-0 d-flex align-items-center">
-              <img src={plusCircleIcon} alt="Plus" className="me-2" style={{ width: '20px', height: '20px', filter: 'invert(1)' }} />
-              Neues Issue erstellen
-            </h5>
-          </div>
-          <div className="card-body">
-            <div className="row g-3">
-              <div className="col-md-3">
-                <label htmlFor="priority" className="form-label text-light fw-semibold">
-                  Priorität:
-                </label>
-                <select 
-                  name="priority" 
-                  id="priority" 
-                  className="form-select bg-dark text-light border-secondary"
-                  value={newIssue.priority}
-                  onChange={(e) => setNewIssue({...newIssue, priority: e.target.value})}
-                >
-                  <option value="">Priorität wählen...</option>
-                  <option value="1" className="text-danger">🔴 Hoch (1)</option>
-                  <option value="2" className="text-warning">🟡 Mittel (2)</option>
-                  <option value="3" className="text-success">🟢 Niedrig (3)</option>
-                </select>
-              </div>
-              <div className="col-md-3">
-                <label htmlFor="datepicker" className="form-label text-light fw-semibold">
-                  Fälligkeitsdatum:
-                </label>
-                <input 
-                  name="due_date" 
-                  type="date" 
-                  className="form-control bg-dark text-light border-secondary"
-                  id="datepicker"
-                  value={newIssue.dueDate}
-                  onChange={(e) => setNewIssue({...newIssue, dueDate: e.target.value})}
-                />
-              </div>
-              <div className="col-md-6">
-                <label htmlFor="new-issue" className="form-label text-light fw-semibold">
-                  Issue Titel:
-                </label>
-                <div className="input-group">
-                  <input 
-                    type="text" 
-                    id="new-issue"
-                    className="form-control bg-dark text-light border-secondary" 
-                    aria-label="Issue Name"
-                    placeholder="Issue beschreiben..."
-                    value={newIssue.title}
-                    onChange={(e) => setNewIssue({...newIssue, title: e.target.value})}
-                    onKeyPress={(e) => e.key === 'Enter' && handleAddIssue()}
-                  />
-                  <button 
-                    className="btn btn-outline-light border-2" 
-                    type="button"
-                    onClick={handleAddIssue}
-                    disabled={!newIssue.title.trim() || selectedProjects.length === 0}
-                    title={selectedProjects.length === 0 ? "Bitte wählen Sie zuerst ein Projekt aus" : ""}
-                  >
-                    <i className="fas fa-plus me-1"></i>Erstellen
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CreateIssue 
+          selectedProjects={selectedProjects}
+          onIssueCreated={handleIssueCreated}
+          onError={handleIssueCreationError}
+        />
 
         {/* Issues Table */}
         <div className="card bg-dark border-secondary">
