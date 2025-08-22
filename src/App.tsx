@@ -1,13 +1,14 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 import bugIcon from './assets/bug-white-32.svg'
 import folderIcon from './assets/folder-icon.svg'
 import clipboardIcon from './assets/clipboard-icon.svg'
-import listIcon from './assets/list-icon.svg'
 import { projectAPI, issueAPI } from './services/api'
 import type { Project, Issue } from './services/api'
 import CreateProject from './components/CreateProject'
 import CreateIssue from './components/CreateIssue'
+import ListProjects from './components/ListProjects'
+import IssuesList from './components/IssuesList'
 
 function App() {
   const [projects, setProjects] = useState<Project[]>([])
@@ -48,6 +49,10 @@ function App() {
 
   const handleProjectCreationError = (errorMessage: string) => {
     setError(errorMessage)
+  }
+
+  const handleProjectSelectionChange = (newSelectedProjects: string[]) => {
+    setSelectedProjects(newSelectedProjects)
   }
 
   const handleIssueCreated = (newIssue: Issue) => {
@@ -111,56 +116,6 @@ function App() {
       setError('Warnung: Änderung nur lokal gespeichert. JSON-Server nicht erreichbar.')
     }
   }
-
-  const formatDate = (dateString: string) => {
-    if (!dateString) return ''
-    const date = new Date(dateString)
-    return date.toLocaleDateString('de-DE')
-  }
-
-  // Filter issues based on selected project
-  const filteredIssues = selectedProjects.length > 0 
-    ? issues.filter(issue => selectedProjects.includes(issue.projectId))
-    : issues
-
-  // Get project name by ID
-  const getProjectName = (projectId: string) => {
-    const project = projects.find(p => p.id === projectId)
-    return project ? project.name : 'Kein Projekt'
-  }
-
-  // Calculate dynamic width for project badges
-  const maxProjectNameLength = useMemo(() => {
-    if (projects.length === 0) return 84; // fallback width (70% of 120)
-    const allNames = [...projects.map(p => p.name), 'Kein Projekt'];
-    const longestName = allNames.reduce((longest, current) => 
-      current.length > longest.length ? current : longest, ''
-    );
-    // Approximate 8px per character + padding + icon width, reduced to 70%
-    const fullWidth = Math.max(120, longestName.length * 8 + 60);
-    return Math.round(fullWidth * 0.7);
-  }, [projects]);
-
-  // Calculate dynamic width for priority badges
-  const maxPriorityBadgeLength = useMemo(() => {
-    const priorityTexts = ['🔴 Hoch', '🟡 Mittel', '🟢 Niedrig', '-'];
-    const longestText = priorityTexts.reduce((longest, current) => 
-      current.length > longest.length ? current : longest, ''
-    );
-    // Approximate 8px per character + padding
-    return Math.max(80, longestText.length * 8 + 20);
-  }, []);
-
-  // Calculate dynamic width for due date badges
-  const maxDueDateBadgeLength = useMemo(() => {
-    // Consider typical German date format "DD.MM.YYYY" plus icon and "Kein Datum"
-    const dateTexts = ['📅 31.12.2025', 'Kein Datum'];
-    const longestText = dateTexts.reduce((longest, current) => 
-      current.length > longest.length ? current : longest, ''
-    );
-    // Approximate 8px per character + padding + icon width
-    return Math.max(120, longestText.length * 8 + 30);
-  }, []);
 
   // Show loading state
   if (loading) {
@@ -255,26 +210,11 @@ function App() {
                   Projekte
                 </h2>
               </div>
-              <div className="col-md-4 mb-3">
-                <label htmlFor="projectSelect" className="form-label text-light fw-semibold">
-                  Projekte auswählen:
-                </label>
-                <select 
-                  multiple 
-                  id="projectSelect" 
-                  className="form-select bg-dark text-light border-secondary" 
-                  aria-label="select"
-                  value={selectedProjects}
-                  onChange={(e) => setSelectedProjects(Array.from(e.target.selectedOptions, option => option.value))}
-                  style={{ height: '120px' }}
-                >
-                  {projects.map(project => (
-                    <option key={project.id} value={project.id} className="bg-dark text-light">
-                      {project.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
+              <ListProjects 
+                projects={projects}
+                selectedProjects={selectedProjects}
+                onProjectSelectionChange={handleProjectSelectionChange}
+              />
               <CreateProject 
                 onProjectCreated={handleProjectCreated}
                 onError={handleProjectCreationError}
@@ -304,144 +244,13 @@ function App() {
         />
 
         {/* Issues Table */}
-        <div className="card bg-dark border-secondary">
-          <div className="card-header bg-secondary text-light">
-            <h5 className="card-title mb-0 d-flex align-items-center">
-              <img src={listIcon} alt="Liste" className="me-2" style={{ width: '20px', height: '20px', filter: 'invert(1)' }} />
-              Issue Übersicht ({filteredIssues.length} Issues)
-            </h5>
-          </div>
-          <div className="card-body p-0">
-            <div className="table-responsive">
-              <table className="table table-dark table-hover mb-0">
-                <thead className="table-secondary">
-                  <tr>
-                    <th scope="col" className="text-center">
-                      <i className="fas fa-check-circle text-success"></i>
-                    </th>
-                    <th scope="col">
-                      <i className="fas fa-file-alt me-1"></i>Issue Name
-                    </th>
-                    <th scope="col" className="text-center">
-                      <i className="fas fa-folder me-1"></i>Projekt
-                    </th>
-                    <th scope="col" className="text-center">
-                      <i className="fas fa-exclamation-triangle me-1"></i>Priorität
-                    </th>
-                    <th scope="col" className="text-center">
-                      <i className="fas fa-calendar me-1"></i>Fällig am
-                    </th>
-                    <th scope="col" className="text-center">Aktionen</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {filteredIssues.length === 0 ? (
-                    <tr>
-                      <td colSpan={6} className="text-center text-white py-4">
-                        <i className="fas fa-inbox fa-2x mb-2 d-block"></i>
-                        {selectedProjects.length > 0 
-                          ? 'Keine Issues für das ausgewählte Projekt vorhanden.' 
-                          : 'Noch keine Issues vorhanden. Erstelle dein erstes Issue!'}
-                      </td>
-                    </tr>
-                  ) : (
-                    filteredIssues.map(issue => (
-                      <tr key={issue.id} className={issue.done ? 'table-success bg-opacity-25' : ''}>
-                        <td className="text-center">
-                          <div className="form-check d-flex justify-content-center">
-                            <input 
-                              className="form-check-input" 
-                              type="checkbox" 
-                              checked={issue.done}
-                              onChange={() => handleToggleIssue(issue.id)}
-                            />
-                          </div>
-                        </td>
-                        <td className={issue.done ? 'text-decoration-line-through text-white' : 'text-light'}>
-                          <strong>{issue.title}</strong>
-                        </td>
-                        <td className="text-center text-light">
-                          <span 
-                            className="badge bg-info text-dark project-badge"
-                            style={{ 
-                              minWidth: `${maxProjectNameLength}px`,
-                              maxWidth: `${maxProjectNameLength}px`
-                            }}
-                          >
-                            <i className="fas fa-folder me-1"></i>
-                            {getProjectName(issue.projectId)}
-                          </span>
-                        </td>
-                        <td className="text-center">
-                          {issue.priority === '1' && (
-                            <span 
-                              className="badge bg-danger priority-badge"
-                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
-                            >
-                              🔴 Hoch
-                            </span>
-                          )}
-                          {issue.priority === '2' && (
-                            <span 
-                              className="badge bg-warning priority-badge"
-                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
-                            >
-                              🟡 Mittel
-                            </span>
-                          )}
-                          {issue.priority === '3' && (
-                            <span 
-                              className="badge bg-success priority-badge"
-                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
-                            >
-                              🟢 Niedrig
-                            </span>
-                          )}
-                          {!issue.priority && (
-                            <span 
-                              className="badge bg-secondary priority-badge"
-                              style={{ minWidth: `${maxPriorityBadgeLength}px` }}
-                            >
-                              -
-                            </span>
-                          )}
-                        </td>
-                        <td className="text-center text-light">
-                          {issue.dueDate ? (
-                            <span 
-                              className="badge border border-white text-white due-date-badge"
-                              style={{ minWidth: `${maxDueDateBadgeLength}px` }}
-                            >
-                              <i className="fas fa-calendar-day me-1"></i>
-                              {formatDate(issue.dueDate)}
-                            </span>
-                          ) : (
-                            <span 
-                              className="badge bg-secondary due-date-badge"
-                              style={{ minWidth: `${maxDueDateBadgeLength}px` }}
-                            >
-                              Kein Datum
-                            </span>
-                          )}
-                        </td>
-                        <td className="text-center">
-                          <button 
-                            type="button" 
-                            className="btn btn-outline-danger btn-sm"
-                            onClick={() => handleDeleteIssue(issue.id)}
-                            title="Issue löschen"
-                          >
-                            <i className="fas fa-trash"></i>
-                          </button>
-                        </td>
-                      </tr>
-                    ))
-                  )}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
+        <IssuesList 
+          issues={issues}
+          projects={projects}
+          selectedProjects={selectedProjects}
+          onToggleIssue={handleToggleIssue}
+          onDeleteIssue={handleDeleteIssue}
+        />
 
         {/* Footer */}
         <footer id="about" className="mt-5 pt-4">
