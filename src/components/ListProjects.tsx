@@ -33,8 +33,8 @@ function ListProjects({ projects, selectedProjects, onProjectSelectionChange }: 
         ))}
       </select>
       {projects.length === 0 && (
-        <div className="form-text text-muted mt-2">
-          <i className="fas fa-info-circle me-1"></i>
+        <div className="form-text text-white mt-2">
+          <i className="fas fa-info-circle me-1 text-white"></i>
           Noch keine Projekte vorhanden. Erstellen Sie zuerst ein Projekt.
         </div>
       )}

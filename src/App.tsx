@@ -146,8 +146,7 @@ function App() {
       <Header />
 
       {/* Main Content */}
-      <div className="min-vh-100 bg-dark text-light" style={{ 
-        minWidth: '768px', 
+      <div className="min-vh-100 bg-dark text-light main-content-container" style={{ 
         maxWidth: '1200px', 
         margin: '0 auto', 
         paddingLeft: '15px', 
