@@ -262,8 +262,9 @@ export const issueAPI = {
       const projectsResponse = await fetch(`${API_BASE_URL}/Project`)
       if (projectsResponse.ok) {
         const projects: RawProject[] = await projectsResponse.json()
+        // Fix: Convert project_id (number) to string for map lookup
         const projectIdMap = new Map(projects.map(p => [p.id, p.client_id]))
-        const projectId = projectIdMap.get(updatedIssue.project_id) || ''
+        const projectId = projectIdMap.get(updatedIssue.project_id.toString()) || ''
         
         return {
           id: updatedIssue.client_id,

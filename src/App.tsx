@@ -107,16 +107,20 @@ function App() {
         console.log('Keeping optimistic update due to API failure')
       } else {
         console.log('Issue successfully updated:', updatedIssue)
-        // Update with the actual response from server
+        // Update with the actual response from server, preserving all fields
         setIssues(prevIssues => prevIssues.map(i => 
-          i.id === id ? updatedIssue : i
+          i.id === id ? { 
+            ...i, // Keep all original fields (especially projectId)
+            ...updatedIssue, // Override with server response
+            projectId: updatedIssue.projectId || i.projectId // Ensure projectId is preserved
+          } : i
         ))
       }
     } catch (err) {
       console.error('Error updating issue:', err)
       console.log('JSON-Server might not be running. Keeping local change.')
       // Keep the optimistic update for better UX when server is offline
-      // setIssues(issues) // Don't revert - let user continue working
+      // Issue will remain visible with the new done state
       setError('Warnung: Änderung nur lokal gespeichert. JSON-Server nicht erreichbar.')
     }
   }
