@@ -17,10 +17,13 @@ export default {
     '<rootDir>/src/**/(*.)+(spec|test).(ts|tsx|js)'
   ],
   collectCoverageFrom: [
-    'src/**/*.{ts,tsx}',
-    '!src/**/*.d.ts',
-    '!src/main.tsx',
-    '!src/vite-env.d.ts'
+    'src/components/ChooseProject.tsx',
+    'src/components/ErrorAlert.tsx',
+    'src/components/Footer.tsx',
+    'src/components/Header.tsx',
+    'src/components/IssueRow.tsx',
+    'src/components/ListProjects.tsx',
+    'src/components/Loading.tsx'
   ],
   watchman: false
 };

@@ -104,7 +104,12 @@ describe('IssuesList Component', () => {
     expect(screen.queryByTestId('issue-row-1')).not.toBeInTheDocument();
     expect(screen.queryByTestId('issue-row-2')).not.toBeInTheDocument();
     expect(screen.queryByTestId('issue-row-3')).not.toBeInTheDocument();
+
+    // Prompt to choose projects is shown
+    expect(screen.getByText('Wählen Sie ein Projekt aus, um Issues anzuzeigen.')).toBeInTheDocument();
   });
+
+  // Note: Due date fallback is covered in a separate test that uses the real IssueRow
 
   test('displays issue count for filtered results', () => {
     render(<IssuesList {...defaultProps} />);

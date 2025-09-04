@@ -206,4 +206,18 @@ describe('IssueRow Component', () => {
     expect(priorityBadge).toHaveStyle({ minWidth: '80px' });
     expect(dueDateBadge).toHaveStyle({ minWidth: '120px' });
   });
+
+  test('renders fallback when no due date', () => {
+    const issueNoDate = { ...mockIssue, dueDate: '' };
+    
+    render(
+      <table>
+        <tbody>
+          <IssueRow {...defaultProps} issue={issueNoDate} />
+        </tbody>
+      </table>
+    );
+    
+    expect(screen.getByText('Kein Datum')).toBeInTheDocument();
+  });
 });

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1757004866171" clover="3.2.0">
+  <project timestamp="1757004866171" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="23" coveredconditionals="22" methods="16" coveredmethods="16" elements="69" coveredelements="68" complexity="0" loc="30" ncloc="30" packages="1" files="7" classes="7"/>
+    <file name="ChooseProject.tsx" path="/Users/peterstroessler/Documents/Projects/reactjs-todoapp/src/components/ChooseProject.tsx">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="6" count="5" type="cond" truecount="1" falsecount="0"/>
+      <line num="7" count="3" type="stmt"/>
+      <line num="19" count="2" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+    </file>
+    <file name="ErrorAlert.tsx" path="/Users/peterstroessler/Documents/Projects/reactjs-todoapp/src/components/ErrorAlert.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="7" count="4" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+    </file>
+    <file name="Footer.tsx" path="/Users/peterstroessler/Documents/Projects/reactjs-todoapp/src/components/Footer.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="3" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="Header.tsx" path="/Users/peterstroessler/Documents/Projects/reactjs-todoapp/src/components/Header.tsx">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="5" count="14" type="stmt"/>
+      <line num="7" count="14" type="stmt"/>
+      <line num="8" count="5" type="stmt"/>
+      <line num="11" count="14" type="stmt"/>
+      <line num="62" count="1" type="stmt"/>
+      <line num="71" count="1" type="stmt"/>
+      <line num="80" count="1" type="stmt"/>
+      <line num="92" count="2" type="stmt"/>
+    </file>
+    <file name="IssueRow.tsx" path="/Users/peterstroessler/Documents/Projects/reactjs-todoapp/src/components/IssueRow.tsx">
+      <metrics statements="4" coveredstatements="4" conditionals="14" coveredconditionals="14" methods="3" coveredmethods="3"/>
+      <line num="24" count="15" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="117" count="2" type="stmt"/>
+    </file>
+    <file name="ListProjects.tsx" path="/Users/peterstroessler/Documents/Projects/reactjs-todoapp/src/components/ListProjects.tsx">
+      <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <line num="10" count="8" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="15" count="8" type="stmt"/>
+      <line num="30" count="21" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+    </file>
+    <file name="Loading.tsx" path="/Users/peterstroessler/Documents/Projects/reactjs-todoapp/src/components/Loading.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
