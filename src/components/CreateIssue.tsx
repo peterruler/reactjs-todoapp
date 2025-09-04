@@ -89,7 +89,7 @@ function CreateIssue({ selectedProjects, onIssueCreated, onError }: CreateIssueP
               Fälligkeitsdatum:
             </label>
             <input 
-              name="due_date" 
+              name="dueDate" 
               type="date" 
               className="form-control bg-dark text-light border-secondary"
               id="datepicker"

@@ -135,7 +135,8 @@ Create a `db.json` file in the root directory:
   "Project": [
     {
       "id": "22c054b7-4078-4d02-9034-e4b186bcb81f",
-      "name": "Sample Project"
+      "name": "Sample Project",
+      "active":true
     }
   ],
   "Issue": [
