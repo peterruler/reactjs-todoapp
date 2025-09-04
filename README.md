@@ -24,14 +24,17 @@ This is a React-based Issue Tracker application built with TypeScript, Vite, and
 
 ## ✨ Features
 
-- **Project Management**: Create and manage multiple projects
+- **Project Management**: Create and manage multiple projects with UUID-based identification
 - **Issue Tracking**: Create, edit, and track issues with priorities and due dates
-- **1:n Relationship**: Each project can have multiple issues
+- **1:n Relationship**: Each project can have multiple issues with foreign key relationships
 - **Dark Theme**: Modern dark UI with Bootstrap
-- **Responsive Design**: Works on desktop and mobile devices
-- **100% Test Coverage**: Comprehensive Jest testing suite
+- **Responsive Design**: Works on desktop and mobile devices with hamburger navigation
+- **100% Test Coverage**: Comprehensive Jest testing suite with 74 tests
 - **TypeScript**: Full type safety throughout the application
 - **Modern UI**: Bootstrap 5 with FontAwesome icons
+- **UUID Support**: Robust UUID-based primary keys for data integrity
+- **Priority System**: 3-level priority system (1=High, 2=Medium, 3=Low)
+- **Due Date Management**: Date tracking with future date validation
 
 ## 🛠️ Tech Stack & Quality Metrics
 
@@ -50,7 +53,7 @@ This is a React-based Issue Tracker application built with TypeScript, Vite, and
 </div>
 
 ### 🏆 Quality Metrics
-- **Test Coverage**: 100% (69/69 tests passing)
+- **Test Coverage**: 100% (74/74 tests passing)
 - **Type Safety**: Full TypeScript implementation
 - **Performance**: A+ grade
 - **Maintainability**: A grade
@@ -91,7 +94,7 @@ The application will be available at `http://localhost:5173`
 ```bash
 npx jest
 ```
-**Result:** 69 tests pass in ~3 seconds with 100% coverage! 🎉
+**Result:** 74 tests pass in ~3 seconds with 100% coverage! 🎉
 
 ### Linting
 
@@ -135,17 +138,30 @@ Create a `db.json` file in the root directory:
   "Project": [
     {
       "id": "22c054b7-4078-4d02-9034-e4b186bcb81f",
-      "name": "Sample Project",
-      "active":true
+      "name": "Project Alpha",
+      "active": true
+    },
+    {
+      "id": "3a6f2a73-1220-4f4e-93f9-9a5a0b1a2c11",
+      "name": "Project Beta",
+      "active": true
     }
   ],
   "Issue": [
     {
       "id": "fa48263b-a110-4f25-a774-2fcf03f35d78",
-      "title": "Sample Issue",
+      "title": "Issue 1 for Project Alpha",
       "priority": "2",
       "dueDate": "2025-12-31",
       "done": false,
+      "projectId": "22c054b7-4078-4d02-9034-e4b186bcb81f"
+    },
+    {
+      "id": "b1e2c3d4-5f6a-4b7c-8d9e-0a1b2c3d4e5f",
+      "title": "Issue 2 for Project Alpha",
+      "priority": "1",
+      "dueDate": "2026-01-15",
+      "done": true,
       "projectId": "22c054b7-4078-4d02-9034-e4b186bcb81f"
     }
   ]
@@ -190,11 +206,11 @@ cd reactjs-todoapp
 npm install
 npx jest
 ```
-**Expected Output:** ✅ 10 test suites passed, 69 tests passed, 100% coverage
+**Expected Output:** ✅ 12 test suites passed, 74 tests passed, 100% coverage
 
 ### Test Statistics
-- **Test Suites**: 10/10 passing ✅
-- **Total Tests**: 69/69 passing ✅
+- **Test Suites**: 12/12 passing ✅
+- **Total Tests**: 74/74 passing ✅
 - **Coverage**: 100% lines, functions, and branches
 - **Testing Framework**: Jest + React Testing Library
 - **Test Duration**: ~3-4 seconds ⚡
@@ -210,28 +226,30 @@ npx jest
 ### 🔬 Test Categories
 | Category | Tests | Coverage |
 |----------|-------|----------|
-| **Component Tests** | 45 | 100% |
+| **Component Tests** | 50 | 100% |
 | **Integration Tests** | 15 | 100% |
 | **User Interaction Tests** | 9 | 100% |
-| **Total** | **69** | **100%** |
+| **Total** | **74** | **100%** |
 
 ## 📊 Project Status
 
 For detailed project metrics and quality analysis, see [STATUS.md](STATUS.md)
 
+For comprehensive data model documentation, see [DATA_MODEL.md](DATA_MODEL.md)
+
 **Overall Grade: A+** 🏆
 
 ### API Endpoints
 
-- `GET/POST /Project` - Manage projects
-- `GET/POST /Issue` - Manage issues
-- `GET /Project/:id` - Get specific project
-- `GET /Issue/:id` - Get specific issue
-- `PUT/PATCH /Issue/:id` - Update issue
-- `DELETE /Issue/:id` - Delete issue
+- `GET/POST /Project` - Manage projects with UUID identification
+- `GET/POST /Issue` - Manage issues with UUID identification  
+- `GET /Project/:id` - Get specific project by UUID
+- `GET /Issue/:id` - Get specific issue by UUID
+- `PUT/PATCH /Issue/:id` - Update issue (priority, due date, completion status)
+- `DELETE /Issue/:id` - Delete issue by UUID
 - `PATCH /Project/:id` - Update project (e.g., mark as inactive)
 
-**Note**: The application automatically handles the mapping between the internal data structure and the JSON server schema.
+**Note**: The application uses UUID-based primary keys and automatically handles the mapping between the internal data structure and the JSON server schema. Project-Issue relationships are maintained through `projectId` foreign key references.
 
 Currently, two official plugins are available:
 
