@@ -35,7 +35,13 @@ export const projectAPI = {
   // Get all projects
   async getProjects(): Promise<Project[]> {
     try {
-      const response = await fetch(`${API_BASE_URL}/Project`)
+      const response = await fetch(`${API_BASE_URL}/Project`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        mode: 'cors'
+      })
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
@@ -63,6 +69,7 @@ export const projectAPI = {
         headers: {
           'Content-Type': 'application/json',
         },
+        mode: 'cors',
         body: JSON.stringify(newServerProject),
       })
       
@@ -86,6 +93,7 @@ export const projectAPI = {
         headers: {
           'Content-Type': 'application/json',
         },
+        mode: 'cors',
         body: JSON.stringify({ active: false }),
       })
       
@@ -102,7 +110,13 @@ export const issueAPI = {
   // Get all issues
   async getIssues(): Promise<Issue[]> {
     try {
-      const issuesResponse = await fetch(`${API_BASE_URL}/Issue`)
+      const issuesResponse = await fetch(`${API_BASE_URL}/Issue`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        mode: 'cors'
+      })
       if (!issuesResponse.ok) {
         throw new Error('HTTP error!')
       }
@@ -150,6 +164,7 @@ export const issueAPI = {
         headers: {
           'Content-Type': 'application/json',
         },
+        mode: 'cors',
         body: JSON.stringify(newIssue),
       })
       
@@ -179,6 +194,7 @@ export const issueAPI = {
         headers: {
           'Content-Type': 'application/json',
         },
+        mode: 'cors',
         body: JSON.stringify(partial),
       })
       
@@ -199,6 +215,7 @@ export const issueAPI = {
     try {
       const deleteResponse = await fetch(`${API_BASE_URL}/Issue/${id}`, {
         method: 'DELETE',
+        mode: 'cors',
       })
       
       return deleteResponse.ok
