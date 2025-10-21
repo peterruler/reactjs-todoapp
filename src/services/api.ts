@@ -1,4 +1,4 @@
-const API_BASE_URL = 'https://zhaw.rf.gd/web4/api/'
+const API_BASE_URL = 'https://zhaw.rf.gd/web4/api'
 
 export interface Project {
   id: string
