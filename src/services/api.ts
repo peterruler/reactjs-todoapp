@@ -62,22 +62,82 @@ export interface Issue {
   dueDate: string
   done: boolean
   projectId: string
+  projectName?: string
 }
 
 // Server shapes (match db.json)
 interface ServerProject {
-  id: string
-  name: string
-  active: boolean
+  id?: string | number
+  projectId?: string | number
+  uuid?: string
+  project_id?: string | number
+  name?: string
+  title?: string
+  active?: boolean
 }
 
 interface ServerIssue {
-  id: string
-  title: string
-  priority: string
-  dueDate: string
-  done: boolean
-  projectId: string
+  id?: string | number
+  issueId?: string | number
+  uuid?: string
+  title?: string
+  name?: string
+  priority?: string | number
+  dueDate?: string
+  due_date?: string
+  done?: boolean | number | string
+  completed?: boolean | number | string
+  projectId?: string | number
+  project_id?: string | number
+  project?: string | { id?: string | number; name?: string }
+}
+
+const normalizeProject = (project: ServerProject): Project | null => {
+  const idCandidate = project.id ?? project.projectId ?? project.project_id ?? project.uuid
+  if (!idCandidate) {
+    return null
+  }
+
+  const nameCandidate = project.name ?? project.title ?? 'Unbenanntes Projekt'
+
+  return {
+    id: String(idCandidate),
+    name: nameCandidate
+  }
+}
+
+const normalizeIssue = (issue: ServerIssue): Issue | null => {
+  const idCandidate = issue.id ?? issue.issueId ?? issue.uuid
+  if (!idCandidate) {
+    return null
+  }
+
+  const projectInfo = issue.project
+  const projectIdCandidate = issue.projectId
+    ?? issue.project_id
+    ?? (typeof projectInfo === 'object' ? projectInfo?.id : projectInfo)
+
+  const projectNameCandidate = typeof projectInfo === 'object'
+    ? projectInfo?.name
+    : typeof projectInfo === 'string'
+      ? projectInfo
+      : undefined
+
+  const dueDateCandidate = issue.dueDate ?? issue.due_date ?? ''
+  const doneCandidate = issue.done ?? issue.completed ?? false
+  const priorityCandidate = issue.priority ?? '2'
+
+  return {
+    id: String(idCandidate),
+    title: issue.title ?? issue.name ?? 'Unbenanntes Issue',
+    priority: String(priorityCandidate),
+    dueDate: dueDateCandidate,
+    done: typeof doneCandidate === 'string'
+      ? doneCandidate.toLowerCase() === 'true'
+      : Boolean(doneCandidate),
+    projectId: projectIdCandidate ? String(projectIdCandidate) : '',
+    projectName: projectNameCandidate
+  }
 }
 
 // Project API
@@ -92,9 +152,10 @@ export const projectAPI = {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
       const rawProjects: ServerProject[] = await response.json()
-      return rawProjects
-        .filter(p => p.active)
-        .map(p => ({ id: p.id, name: p.name }))
+        return rawProjects
+          .filter(p => p.active !== false)
+          .map(normalizeProject)
+          .filter((p): p is Project => p !== null)
     } catch (error) {
       console.error('Error fetching projects:', error)
       return []
@@ -122,7 +183,7 @@ export const projectAPI = {
       }
       
       const createdProject: ServerProject = await createResponse.json()
-      return { id: createdProject.id, name: createdProject.name }
+    return normalizeProject(createdProject)
     } catch (error) {
       console.error('Error creating project:', error)
       return null
@@ -159,14 +220,9 @@ export const issueAPI = {
       }
 
       const rawIssues: ServerIssue[] = await issuesResponse.json()
-      return rawIssues.map(i => ({
-        id: i.id,
-        title: i.title,
-        priority: i.priority,
-        dueDate: i.dueDate,
-        done: i.done,
-        projectId: i.projectId
-      }))
+        return rawIssues
+          .map(normalizeIssue)
+          .filter((i): i is Issue => i !== null)
     } catch (error) {
       console.error('Error fetching issues:', error)
       return []
@@ -208,7 +264,7 @@ export const issueAPI = {
       }
       
       const createdIssue: ServerIssue = await createResponse.json()
-      return { ...createdIssue }
+    return normalizeIssue(createdIssue)
     } catch (error) {
       console.error('Error creating issue:', error)
       return null
@@ -235,7 +291,7 @@ export const issueAPI = {
       }
       
       const updatedIssue: ServerIssue = await updateResponse.json()
-      return { ...updatedIssue }
+    return normalizeIssue(updatedIssue)
     } catch (error) {
       console.error('Error updating issue:', error)
       return null
