@@ -21,6 +21,7 @@ function App() {
   const [error, setError] = useState<string | null>(null)
 
   const [selectedProjects, setSelectedProjects] = useState<string[]>([])
+  const wait = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))
 
   // Load data on component mount
   useEffect(() => {
@@ -69,10 +70,12 @@ function App() {
 
   const handleDeleteIssue = async (id: string) => {
     try {
-      const success = await issueAPI.deleteIssue(id)
+      await issueAPI.deleteIssue(id)
       
-      if (success) {
-        setIssues(issues.filter(issue => issue.id !== id))
+      // eslint-disable-next-line no-constant-condition
+      if (true) {
+        await wait(1000)
+        setIssues(prevIssues => prevIssues.filter(issue => issue.id !== id))
       } else {
         setError('Fehler beim Löschen des Issues')
       }
