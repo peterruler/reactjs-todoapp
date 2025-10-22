@@ -28,6 +28,28 @@ const resolveApiBaseUrl = (): string => {
 
 const API_BASE_URL = resolveApiBaseUrl()
 
+const JSON_HEADERS: HeadersInit = {
+  'Content-Type': 'application/json'
+}
+
+type MethodOverride = 'PATCH' | 'DELETE'
+
+const postWithMethodOverride = async (
+  url: string,
+  override: MethodOverride,
+  payload?: unknown
+): Promise<Response> => {
+  return fetch(url, {
+    method: 'POST',
+    mode: 'cors',
+    headers: {
+      ...JSON_HEADERS,
+      'X-HTTP-Method-Override': override
+    },
+    body: payload !== undefined ? JSON.stringify(payload) : undefined
+  })
+}
+
 export interface Project {
   id: string
   name: string
@@ -90,9 +112,7 @@ export const projectAPI = {
       
       const createResponse = await fetch(`${API_BASE_URL}/Project`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: JSON_HEADERS,
         mode: 'cors',
         body: JSON.stringify(newServerProject),
       })
@@ -112,14 +132,11 @@ export const projectAPI = {
   // Delete project (mark as inactive)
   async deleteProject(id: string): Promise<boolean> {
     try {
-      const updateResponse = await fetch(`${API_BASE_URL}/Project/${id}`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        mode: 'cors',
-        body: JSON.stringify({ active: false }),
-      })
+      const updateResponse = await postWithMethodOverride(
+        `${API_BASE_URL}/Project/${id}`,
+        'PATCH',
+        { active: false }
+      )
       
       return updateResponse.ok
     } catch (error) {
@@ -181,9 +198,7 @@ export const issueAPI = {
       
       const createResponse = await fetch(`${API_BASE_URL}/Issue`, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: JSON_HEADERS,
         mode: 'cors',
         body: JSON.stringify(newIssue),
       })
@@ -209,14 +224,11 @@ export const issueAPI = {
       if (updates.dueDate !== undefined) partial.dueDate = updates.dueDate
       if (updates.priority !== undefined) partial.priority = updates.priority
 
-      const updateResponse = await fetch(`${API_BASE_URL}/Issue/${id}`, {
-        method: 'PATCH',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        mode: 'cors',
-        body: JSON.stringify(partial),
-      })
+      const updateResponse = await postWithMethodOverride(
+        `${API_BASE_URL}/Issue/${id}`,
+        'PATCH',
+        partial
+      )
       
       if (!updateResponse.ok) {
         throw new Error(`HTTP error! status: ${updateResponse.status}`)
@@ -233,10 +245,10 @@ export const issueAPI = {
   // Delete issue
   async deleteIssue(id: string): Promise<boolean> {
     try {
-      const deleteResponse = await fetch(`${API_BASE_URL}/Issue/${id}`, {
-        method: 'DELETE',
-        mode: 'cors',
-      })
+      const deleteResponse = await postWithMethodOverride(
+        `${API_BASE_URL}/Issue/${id}`,
+        'DELETE'
+      )
       
       return deleteResponse.ok
     } catch (error) {
