@@ -1,7 +1,7 @@
 # Working Demo
 <div align="center">
 
-- [Deployed working Webapp (for now desktop only)](https://zhaw.rf.gd/web4-fe/)
+- [Deployed working Webapp: desktop & mobile (choose project first)](https://zhaw.rf.gd/web4-fe/)
 </div>
 
 # React + TypeScript + Vite Issue Tracker

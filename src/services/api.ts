@@ -1,4 +1,32 @@
-const API_BASE_URL = 'http://localhost:3000'
+const DEFAULT_REMOTE_API_BASE_URL = 'https://zhaw.rf.gd/web4/api'
+const LOCAL_API_BASE_URL = 'http://localhost:3000'
+
+const getEnvApiBaseUrl = (): string | undefined => {
+  try {
+  return (import.meta as ImportMeta).env?.VITE_API_BASE_URL
+  } catch (error) {
+    console.warn('Environment API base URL not available:', error)
+    return undefined
+  }
+}
+
+const resolveApiBaseUrl = (): string => {
+  const envBaseUrl = getEnvApiBaseUrl()
+  if (envBaseUrl) {
+    return envBaseUrl
+  }
+
+  if (typeof window !== 'undefined') {
+    const hostname = window.location.hostname
+    if (hostname === 'localhost' || hostname === '127.0.0.1') {
+      return LOCAL_API_BASE_URL
+    }
+  }
+
+  return DEFAULT_REMOTE_API_BASE_URL
+}
+
+const API_BASE_URL = resolveApiBaseUrl()
 
 export interface Project {
   id: string
@@ -36,10 +64,6 @@ export const projectAPI = {
   async getProjects(): Promise<Project[]> {
     try {
       const response = await fetch(`${API_BASE_URL}/Project`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        },
         mode: 'cors'
       })
       if (!response.ok) {
@@ -111,10 +135,6 @@ export const issueAPI = {
   async getIssues(): Promise<Issue[]> {
     try {
       const issuesResponse = await fetch(`${API_BASE_URL}/Issue`, {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json'
-        },
         mode: 'cors'
       })
       if (!issuesResponse.ok) {
